@@ -1,0 +1,18 @@
+{
+    "_id": "675c1d80a9952b08bea047e0",
+    "childFolders": [],
+    "createdBy": "66fe63f1a503bd0592e89a44",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2024-12-13 11:41:52.121000",
+    "displayOn": "2024-12-13 11:41:52.121000",
+    "isFolder": true,
+    "isTestCase": false,
+    "modifiedBy": "66fe63f1a503bd0592e89a44",
+    "modifiedOn": "2024-12-13 11:41:52.121000",
+    "name": "F3",
+    "parent": null,
+    "path": "F3",
+    "projectId": "670a704152c2b6b0514883c9",
+    "testCases": [],
+    "userName": "aditya"
+}
