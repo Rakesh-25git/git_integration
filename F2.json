@@ -1,0 +1,18 @@
+{
+    "_id": "675c1d1da9952b08bea047de",
+    "childFolders": [],
+    "createdBy": "66fe63f1a503bd0592e89a44",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2024-12-13 11:40:13.142000",
+    "displayOn": "2024-12-13 11:40:13.142000",
+    "isFolder": true,
+    "isTestCase": false,
+    "modifiedBy": "66fe63f1a503bd0592e89a44",
+    "modifiedOn": "2024-12-13 11:40:13.142000",
+    "name": "F2",
+    "parent": null,
+    "path": "F2",
+    "projectId": "670a704152c2b6b0514883c9",
+    "testCases": [],
+    "userName": "aditya"
+}
