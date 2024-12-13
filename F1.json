@@ -1,0 +1,55 @@
+{
+    "_id": "674feb482cce316179fc8113",
+    "childFolders": [
+        {
+            "_id": "674feb502cce316179fc8114",
+            "childFolders": [],
+            "createdBy": "66fe63f1a503bd0592e89a44",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2024-12-04 05:40:32.581000",
+            "displayOn": "2024-12-04 05:40:32.581000",
+            "isFolder": true,
+            "isTestCase": false,
+            "modifiedBy": "66fe63f1a503bd0592e89a44",
+            "modifiedOn": "2024-12-04 07:15:18.440000",
+            "name": "F11",
+            "parent": "674feb482cce316179fc8113",
+            "path": "F11",
+            "projectId": "670a704152c2b6b0514883c9",
+            "testCases": [
+                {
+                    "_id": "675001862cce316179fc8125",
+                    "appType": "Web",
+                    "assignedTo": "aditya",
+                    "createdBy": "66fe63f1a503bd0592e89a44",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2024-12-04 07:15:18.440000",
+                    "description": "",
+                    "displayOn": "2024-12-04 07:15:18.440000",
+                    "modifiedBy": "66fe63f1a503bd0592e89a44",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2024-12-04 07:15:18.440000",
+                    "name": "Rakesh",
+                    "projectId": "670a704152c2b6b0514883c9",
+                    "testCaseFolderId": "674feb502cce316179fc8114",
+                    "testStepGroups": []
+                }
+            ],
+            "userName": "aditya"
+        }
+    ],
+    "createdBy": "66fe63f1a503bd0592e89a44",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2024-12-04 05:40:24.488000",
+    "displayOn": "2024-12-04 05:40:24.488000",
+    "isFolder": true,
+    "isTestCase": false,
+    "modifiedBy": "66fe63f1a503bd0592e89a44",
+    "modifiedOn": "2024-12-04 05:40:24.488000",
+    "name": "F1",
+    "parent": null,
+    "path": "F1",
+    "projectId": "670a704152c2b6b0514883c9",
+    "testCases": [],
+    "userName": "aditya"
+}
