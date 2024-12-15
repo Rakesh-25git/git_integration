@@ -1,0 +1,73 @@
+{
+    "_id": "675e7187da5b2b35c23b1153",
+    "childFolders": [
+        {
+            "_id": "675e719ada5b2b35c23b1155",
+            "childFolders": [],
+            "createdBy": "66fe63f1a503bd0592e89a44",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2024-12-15 06:05:14.077000",
+            "displayOn": "2024-12-15 06:05:14.077000",
+            "isFolder": true,
+            "isTestCase": false,
+            "modifiedBy": "66fe63f1a503bd0592e89a44",
+            "modifiedOn": "2024-12-15 06:05:27.885000",
+            "name": "F61",
+            "parent": "675e7187da5b2b35c23b1153",
+            "path": "F6/F61",
+            "projectId": "670a704152c2b6b0514883c9",
+            "testCases": [
+                {
+                    "_id": "675e71a7da5b2b35c23b1156",
+                    "appType": "Web",
+                    "assignedTo": "aditya",
+                    "createdBy": "66fe63f1a503bd0592e89a44",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2024-12-15 06:05:27.885000",
+                    "description": "",
+                    "displayOn": "2024-12-15 06:05:27.885000",
+                    "modifiedBy": "66fe63f1a503bd0592e89a44",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2024-12-15 06:05:27.885000",
+                    "name": "tc2",
+                    "projectId": "670a704152c2b6b0514883c9",
+                    "testCaseFolderId": "675e719ada5b2b35c23b1155",
+                    "testStepGroups": []
+                }
+            ],
+            "userName": "aditya"
+        }
+    ],
+    "createdBy": "66fe63f1a503bd0592e89a44",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2024-12-15 06:04:55.885000",
+    "displayOn": "2024-12-15 06:04:55.885000",
+    "isFolder": true,
+    "isTestCase": false,
+    "modifiedBy": "66fe63f1a503bd0592e89a44",
+    "modifiedOn": "2024-12-15 06:05:03.593000",
+    "name": "F6",
+    "parent": null,
+    "path": "F6",
+    "projectId": "670a704152c2b6b0514883c9",
+    "testCases": [
+        {
+            "_id": "675e718fda5b2b35c23b1154",
+            "appType": "Web",
+            "assignedTo": "aditya",
+            "createdBy": "66fe63f1a503bd0592e89a44",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2024-12-15 06:05:03.593000",
+            "description": "",
+            "displayOn": "2024-12-15 06:05:03.593000",
+            "modifiedBy": "66fe63f1a503bd0592e89a44",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedOn": "2024-12-15 06:05:03.593000",
+            "name": "tc1",
+            "projectId": "670a704152c2b6b0514883c9",
+            "testCaseFolderId": "675e7187da5b2b35c23b1153",
+            "testStepGroups": []
+        }
+    ],
+    "userName": "aditya"
+}
