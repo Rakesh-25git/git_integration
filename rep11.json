@@ -1,0 +1,40 @@
+{
+    "_id": "675e72a9da5b2b35c23b1160",
+    "childFolders": [],
+    "createdBy": "66fe63f1a503bd0592e89a44",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2024-12-15 06:09:45.068000",
+    "displayOn": "2024-12-15 06:09:45.068000",
+    "folderId": "675e7288da5b2b35c23b115e",
+    "isLeaf": false,
+    "modifiedBy": "66fe63f1a503bd0592e89a44",
+    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+    "modifiedOn": "2024-12-15 06:09:54.413000",
+    "name": "rep11",
+    "path": "Rep1/rep11",
+    "projectId": "670a704152c2b6b0514883c9",
+    "repositories": [
+        {
+            "_id": "675e72b2da5b2b35c23b1161",
+            "appType": "Web",
+            "createdBy": "66fe63f1a503bd0592e89a44",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2024-12-15 06:09:54.413000",
+            "displayOn": "2024-12-15 06:09:54.413000",
+            "elements": [],
+            "folderId": "675e72a9da5b2b35c23b1160",
+            "modifiedBy": "66fe63f1a503bd0592e89a44",
+            "modifiedOn": "2024-12-15 06:09:54.413000",
+            "name": "rep11",
+            "projectId": "670a704152c2b6b0514883c9",
+            "repository": "",
+            "scrapedUrl": "",
+            "screenShot": "",
+            "title": "rep11",
+            "type": "elementRepo",
+            "userName": "aditya"
+        }
+    ],
+    "repository": true,
+    "userName": "aditya"
+}
