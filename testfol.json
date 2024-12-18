@@ -1,0 +1,101 @@
+{
+    "_id": "67625252fdb30a11566d0749",
+    "childFolders": [
+        {
+            "_id": "6762525cfdb30a11566d074a",
+            "childFolders": [
+                {
+                    "_id": "67625286fdb30a11566d074d",
+                    "childFolders": [],
+                    "createdBy": "66fe63f1a503bd0592e89a44",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2024-12-18 04:41:42.434000",
+                    "displayOn": "2024-12-18 04:41:42.434000",
+                    "folderId": "6762525cfdb30a11566d074a",
+                    "isLeaf": false,
+                    "modifiedBy": "66fe63f1a503bd0592e89a44",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2024-12-18 04:41:42.434000",
+                    "name": "test2",
+                    "path": "testfol/test1/test2",
+                    "projectId": "670a704152c2b6b0514883c9",
+                    "repositories": [],
+                    "repository": true,
+                    "userName": "aditya"
+                }
+            ],
+            "createdBy": "66fe63f1a503bd0592e89a44",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2024-12-18 04:41:00.061000",
+            "displayOn": "2024-12-18 04:41:00.061000",
+            "folderId": "67625252fdb30a11566d0749",
+            "isLeaf": false,
+            "modifiedBy": "66fe63f1a503bd0592e89a44",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedOn": "2024-12-18 04:41:29.092000",
+            "name": "test1",
+            "path": "testfol/test1",
+            "projectId": "670a704152c2b6b0514883c9",
+            "repositories": [
+                {
+                    "_id": "67625279fdb30a11566d074c",
+                    "appType": "SAP",
+                    "createdBy": "66fe63f1a503bd0592e89a44",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2024-12-18 04:41:29.092000",
+                    "displayOn": "2024-12-18 04:41:29.092000",
+                    "elements": [],
+                    "folderId": "6762525cfdb30a11566d074a",
+                    "modifiedBy": "66fe63f1a503bd0592e89a44",
+                    "modifiedOn": "2024-12-18 04:41:29.092000",
+                    "name": "repo2",
+                    "projectId": "670a704152c2b6b0514883c9",
+                    "repository": "",
+                    "scrapedUrl": "",
+                    "screenShot": "",
+                    "title": "repo2",
+                    "type": "elementRepo",
+                    "userName": "aditya"
+                }
+            ],
+            "repository": true,
+            "userName": "aditya"
+        }
+    ],
+    "createdBy": "66fe63f1a503bd0592e89a44",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2024-12-18 04:40:50.364000",
+    "displayOn": "2024-12-18 04:40:50.364000",
+    "folderId": null,
+    "isLeaf": false,
+    "modifiedBy": "66fe63f1a503bd0592e89a44",
+    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+    "modifiedOn": "2024-12-18 04:41:16.397000",
+    "name": "testfol",
+    "path": "testfol",
+    "projectId": "670a704152c2b6b0514883c9",
+    "repositories": [
+        {
+            "_id": "6762526cfdb30a11566d074b",
+            "appType": "Desktop",
+            "createdBy": "66fe63f1a503bd0592e89a44",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2024-12-18 04:41:16.397000",
+            "displayOn": "2024-12-18 04:41:16.397000",
+            "elements": [],
+            "folderId": "67625252fdb30a11566d0749",
+            "modifiedBy": "66fe63f1a503bd0592e89a44",
+            "modifiedOn": "2024-12-18 04:41:16.397000",
+            "name": "repo1",
+            "projectId": "670a704152c2b6b0514883c9",
+            "repository": "",
+            "scrapedUrl": "",
+            "screenShot": "",
+            "title": "repo1",
+            "type": "elementRepo",
+            "userName": "aditya"
+        }
+    ],
+    "repository": true,
+    "userName": "aditya"
+}
