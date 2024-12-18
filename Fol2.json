@@ -1,0 +1,19 @@
+{
+    "_id": "676290abd46ec86a6214fb8d",
+    "childFolders": [],
+    "createdBy": "66fe63f1a503bd0592e89a44",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2024-12-18 09:06:51.956000",
+    "displayOn": "2024-12-18 09:06:51.956000",
+    "isFolder": true,
+    "isTestCase": false,
+    "modifiedBy": "66fe63f1a503bd0592e89a44",
+    "modifiedOn": "2024-12-18 09:06:51.956000",
+    "name": "Fol2",
+    "parent": null,
+    "path": "Fol2",
+    "projectId": "67628a76d46ec86a6214fb69",
+    "testCases": [],
+    "testcase": "",
+    "userName": "aditya"
+}
