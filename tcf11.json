@@ -1,0 +1,19 @@
+{
+    "_id": "67737fbfaf586f1e81409095",
+    "childFolders": [],
+    "createdBy": "66fe63f1a503bd0592e89a44",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2024-12-31 05:23:11.965000",
+    "displayOn": "2024-12-31 05:23:11.965000",
+    "isFolder": true,
+    "isTestCase": false,
+    "modifiedBy": "66fe63f1a503bd0592e89a44",
+    "modifiedOn": "2024-12-31 05:23:11.965000",
+    "name": "tcf11",
+    "parent": null,
+    "path": "tcf11",
+    "projectId": "67628a76d46ec86a6214fb69",
+    "testCases": [],
+    "testcase": "",
+    "userName": "aditya"
+}
