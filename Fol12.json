@@ -1,6 +1,47 @@
 {
     "_id": "6773b09405849b93b8ab8005",
-    "childFolders": [],
+    "childFolders": [
+        {
+            "_id": "678688aea4142f71669bd85f",
+            "childFolders": [],
+            "createdBy": "66fe63f1a503bd0592e89a44",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-01-14 15:54:22.998000",
+            "displayOn": "2025-01-14 15:54:22.998000",
+            "folderId": "6773b09405849b93b8ab8005",
+            "isLeaf": false,
+            "modifiedBy": "66fe63f1a503bd0592e89a44",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedOn": "2025-01-14 15:54:35.058000",
+            "name": "New Folder",
+            "path": "Fol12/New Folder",
+            "projectId": "67628a76d46ec86a6214fb69",
+            "repositories": [
+                {
+                    "_id": "678688bba4142f71669bd860",
+                    "appType": "Web",
+                    "createdBy": "66fe63f1a503bd0592e89a44",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-01-14 15:54:35.058000",
+                    "displayOn": "2025-01-14 15:54:35.058000",
+                    "elements": [],
+                    "folderId": "678688aea4142f71669bd85f",
+                    "modifiedBy": "66fe63f1a503bd0592e89a44",
+                    "modifiedOn": "2025-01-14 15:54:35.058000",
+                    "name": "New Repository",
+                    "projectId": "67628a76d46ec86a6214fb69",
+                    "repository": "",
+                    "scrapedUrl": "",
+                    "screenShot": "",
+                    "title": "New Repository",
+                    "type": "elementRepo",
+                    "userName": "aditya"
+                }
+            ],
+            "repository": true,
+            "userName": "aditya"
+        }
+    ],
     "createdBy": "66fe63f1a503bd0592e89a44",
     "createdByRole": "5db0022cf87fdec084ae49ab",
     "createdOn": "2024-12-31 08:51:32.708000",
