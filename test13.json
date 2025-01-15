@@ -1,0 +1,38 @@
+{
+    "_id": "6787a928d1d0d6859d7484b9",
+    "childFolders": [],
+    "createdBy": "66fe63f1a503bd0592e89a44",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2025-01-15 12:25:12.099000",
+    "displayOn": "2025-01-15 12:25:12.099000",
+    "isFolder": true,
+    "isTestCase": false,
+    "modifiedBy": "66fe63f1a503bd0592e89a44",
+    "modifiedOn": "2025-01-15 12:25:19.439000",
+    "name": "test13",
+    "parent": null,
+    "path": "test13",
+    "projectId": "67628a76d46ec86a6214fb69",
+    "testCases": [
+        {
+            "_id": "6787a92fd1d0d6859d7484ba",
+            "appType": "Web",
+            "assignedTo": "aditya",
+            "createdBy": "66fe63f1a503bd0592e89a44",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-01-15 12:25:19.439000",
+            "description": "",
+            "displayOn": "2025-01-15 12:25:19.439000",
+            "modifiedBy": "66fe63f1a503bd0592e89a44",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedOn": "2025-01-15 12:25:19.439000",
+            "name": "New Testcase",
+            "projectId": "67628a76d46ec86a6214fb69",
+            "testCaseFolderId": "6787a928d1d0d6859d7484b9",
+            "testStepGroups": [],
+            "testSteps": ""
+        }
+    ],
+    "testcase": "True",
+    "userName": "aditya"
+}
