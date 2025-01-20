@@ -1,0 +1,198 @@
+{
+    "_id": "678e134f99132d6c70bf226d",
+    "childFolders": [
+        {
+            "_id": "678e136199132d6c70bf226e",
+            "childFolders": [],
+            "createdBy": "66fe63f1a503bd0592e89a44",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-01-20 09:12:01.074000",
+            "displayOn": "2025-01-20 09:12:01.074000",
+            "folderId": "678e134f99132d6c70bf226d",
+            "isLeaf": false,
+            "modifiedBy": "66fe63f1a503bd0592e89a44",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedOn": "2025-01-20 09:12:20.169000",
+            "name": "git_test_inner",
+            "path": "git_test_4/git_test_inner",
+            "projectId": "67628a76d46ec86a6214fb69",
+            "repositories": [
+                {
+                    "_id": "678e137499132d6c70bf226f",
+                    "appType": "Web",
+                    "createdBy": "66fe63f1a503bd0592e89a44",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-01-20 09:12:20.169000",
+                    "displayOn": "2025-01-20 09:12:20.169000",
+                    "elements": [
+                        {
+                            "_id": "678e13ad99132d6c70bf2270",
+                            "elementrepoid": "678e137499132d6c70bf226f",
+                            "fullSS": null,
+                            "height": null,
+                            "hiddentag": null,
+                            "identifierpriority": [
+                                {
+                                    "id": 1,
+                                    "identifier": "cssselector"
+                                },
+                                {
+                                    "id": 2,
+                                    "identifier": "id"
+                                },
+                                {
+                                    "id": 3,
+                                    "identifier": "xpath"
+                                },
+                                {
+                                    "id": 4,
+                                    "identifier": "rxpath"
+                                },
+                                {
+                                    "id": 5,
+                                    "identifier": "name"
+                                },
+                                {
+                                    "id": 6,
+                                    "identifier": "classname"
+                                },
+                                {
+                                    "id": 7,
+                                    "identifier": "href"
+                                },
+                                {
+                                    "id": 8,
+                                    "identifier": "label"
+                                }
+                            ],
+                            "identifiers": {
+                                "classname": "None",
+                                "cssselector": "None",
+                                "href": "None",
+                                "id": "None",
+                                "label": "None",
+                                "name": "ajcj",
+                                "rxpath": "None",
+                                "xpath": "None"
+                            },
+                            "left": null,
+                            "name": "ajcj",
+                            "tag": "a",
+                            "tempOrderId": "4bd7e90c-d76a-486c-8279-7a054312eb8e",
+                            "top": null,
+                            "url": null,
+                            "viewTop": null,
+                            "width": null
+                        },
+                        {
+                            "_id": "678e13ad99132d6c70bf2271",
+                            "elementrepoid": "678e137499132d6c70bf226f",
+                            "fullSS": null,
+                            "height": null,
+                            "hiddentag": null,
+                            "identifierpriority": [
+                                {
+                                    "id": 1,
+                                    "identifier": "cssselector"
+                                },
+                                {
+                                    "id": 2,
+                                    "identifier": "id"
+                                },
+                                {
+                                    "id": 3,
+                                    "identifier": "xpath"
+                                },
+                                {
+                                    "id": 4,
+                                    "identifier": "rxpath"
+                                },
+                                {
+                                    "id": 5,
+                                    "identifier": "name"
+                                },
+                                {
+                                    "id": 6,
+                                    "identifier": "classname"
+                                },
+                                {
+                                    "id": 7,
+                                    "identifier": "href"
+                                },
+                                {
+                                    "id": 8,
+                                    "identifier": "label"
+                                }
+                            ],
+                            "identifiers": {
+                                "classname": "None",
+                                "cssselector": "None",
+                                "href": "None",
+                                "id": "None",
+                                "label": "None",
+                                "name": "ijababsa",
+                                "rxpath": "None",
+                                "xpath": "None"
+                            },
+                            "left": null,
+                            "name": "ijababsa",
+                            "tag": "a",
+                            "tempOrderId": "d8c90a24-3467-41f8-ba0d-97a5a8285205",
+                            "top": null,
+                            "url": null,
+                            "viewTop": null,
+                            "width": null
+                        }
+                    ],
+                    "folderId": "678e136199132d6c70bf226e",
+                    "modifiedBy": "66fe63f1a503bd0592e89a44",
+                    "modifiedOn": "2025-01-20 09:13:17.863000",
+                    "name": "testRepo",
+                    "projectId": "67628a76d46ec86a6214fb69",
+                    "repository": "",
+                    "scrapedUrl": "",
+                    "screenShot": "",
+                    "title": "testRepo",
+                    "type": "elementRepo",
+                    "userName": "aditya"
+                }
+            ],
+            "repository": true,
+            "userName": "aditya"
+        },
+        {
+            "_id": "678e13f299132d6c70bf2272",
+            "childFolders": [],
+            "createdBy": "66fe63f1a503bd0592e89a44",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-01-20 09:14:26.446000",
+            "displayOn": "2025-01-20 09:14:26.446000",
+            "folderId": "678e134f99132d6c70bf226d",
+            "isLeaf": false,
+            "modifiedBy": "66fe63f1a503bd0592e89a44",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedOn": "2025-01-20 09:14:26.446000",
+            "name": "git_test_inner1",
+            "path": "git_test_4/git_test_inner1",
+            "projectId": "67628a76d46ec86a6214fb69",
+            "repositories": [],
+            "repository": true,
+            "userName": "aditya"
+        }
+    ],
+    "createdBy": "66fe63f1a503bd0592e89a44",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2025-01-20 09:11:43.967000",
+    "displayOn": "2025-01-20 09:11:43.967000",
+    "folderId": null,
+    "isLeaf": false,
+    "modifiedBy": "66fe63f1a503bd0592e89a44",
+    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+    "modifiedOn": "2025-01-20 09:11:43.967000",
+    "name": "git_test_4",
+    "path": "git_test_4",
+    "projectId": "67628a76d46ec86a6214fb69",
+    "repositories": [],
+    "repository": true,
+    "userName": "aditya"
+}
