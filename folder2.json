@@ -1,0 +1,80 @@
+{
+    "_id": "678f64480f0e258703ac7258",
+    "childFolders": [
+        {
+            "_id": "678f64740f0e258703ac7259",
+            "childFolders": [
+                {
+                    "_id": "678f649f0f0e258703ac725b",
+                    "childFolders": [],
+                    "createdBy": "66fe63f1a503bd0592e89a44",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-01-21 09:10:55.002000",
+                    "displayOn": "2025-01-21 09:10:55.002000",
+                    "folderId": "678f64740f0e258703ac7259",
+                    "isLeaf": false,
+                    "modifiedBy": "66fe63f1a503bd0592e89a44",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-01-21 09:10:55.002000",
+                    "name": "folder2111",
+                    "path": "folder2/folder21/folder2111",
+                    "projectId": "67628a76d46ec86a6214fb69",
+                    "repositories": [],
+                    "repository": true,
+                    "userName": "aditya"
+                }
+            ],
+            "createdBy": "66fe63f1a503bd0592e89a44",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-01-21 09:10:12.801000",
+            "displayOn": "2025-01-21 09:10:12.801000",
+            "folderId": "678f64480f0e258703ac7258",
+            "isLeaf": false,
+            "modifiedBy": "66fe63f1a503bd0592e89a44",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedOn": "2025-01-21 09:10:30.583000",
+            "name": "folder21",
+            "path": "folder2/folder21",
+            "projectId": "67628a76d46ec86a6214fb69",
+            "repositories": [
+                {
+                    "_id": "678f64860f0e258703ac725a",
+                    "appType": "Web",
+                    "createdBy": "66fe63f1a503bd0592e89a44",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-01-21 09:10:30.583000",
+                    "displayOn": "2025-01-21 09:10:30.583000",
+                    "elements": [],
+                    "folderId": "678f64740f0e258703ac7259",
+                    "modifiedBy": "66fe63f1a503bd0592e89a44",
+                    "modifiedOn": "2025-01-21 09:10:30.583000",
+                    "name": "repo21",
+                    "projectId": "67628a76d46ec86a6214fb69",
+                    "repository": "",
+                    "scrapedUrl": "",
+                    "screenShot": "",
+                    "title": "repo21",
+                    "type": "elementRepo",
+                    "userName": "aditya"
+                }
+            ],
+            "repository": true,
+            "userName": "aditya"
+        }
+    ],
+    "createdBy": "66fe63f1a503bd0592e89a44",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2025-01-21 09:09:28.848000",
+    "displayOn": "2025-01-21 09:09:28.848000",
+    "folderId": null,
+    "isLeaf": false,
+    "modifiedBy": "66fe63f1a503bd0592e89a44",
+    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+    "modifiedOn": "2025-01-21 09:09:28.848000",
+    "name": "folder2",
+    "path": "folder2",
+    "projectId": "67628a76d46ec86a6214fb69",
+    "repositories": [],
+    "repository": true,
+    "userName": "aditya"
+}
