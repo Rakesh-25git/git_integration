@@ -1,0 +1,58 @@
+{
+    "_id": "678f67520f0e258703ac7268",
+    "childFolders": [
+        {
+            "_id": "678f675c0f0e258703ac7269",
+            "childFolders": [],
+            "createdBy": "66fe63f1a503bd0592e89a44",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-01-21 09:22:36.415000",
+            "displayOn": "2025-01-21 09:22:36.415000",
+            "isFolder": true,
+            "isTestCase": false,
+            "modifiedBy": "66fe63f1a503bd0592e89a44",
+            "modifiedOn": "2025-01-21 09:22:49.507000",
+            "name": "test161",
+            "parent": "678f67520f0e258703ac7268",
+            "path": "test16/test161",
+            "projectId": "67628a76d46ec86a6214fb69",
+            "testCases": [
+                {
+                    "_id": "678f67690f0e258703ac726a",
+                    "appType": "Web",
+                    "assignedTo": "aditya",
+                    "createdBy": "66fe63f1a503bd0592e89a44",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-01-21 09:22:49.507000",
+                    "description": "",
+                    "displayOn": "2025-01-21 09:22:49.507000",
+                    "modifiedBy": "66fe63f1a503bd0592e89a44",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-01-21 09:22:49.507000",
+                    "name": "tc1611",
+                    "projectId": "67628a76d46ec86a6214fb69",
+                    "testCaseFolderId": "678f675c0f0e258703ac7269",
+                    "testStepGroups": [],
+                    "testSteps": ""
+                }
+            ],
+            "testcase": "True",
+            "userName": "aditya"
+        }
+    ],
+    "createdBy": "66fe63f1a503bd0592e89a44",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2025-01-21 09:22:26.813000",
+    "displayOn": "2025-01-21 09:22:26.813000",
+    "isFolder": true,
+    "isTestCase": false,
+    "modifiedBy": "66fe63f1a503bd0592e89a44",
+    "modifiedOn": "2025-01-21 09:22:26.813000",
+    "name": "test16",
+    "parent": null,
+    "path": "test16",
+    "projectId": "67628a76d46ec86a6214fb69",
+    "testCases": [],
+    "testcase": "",
+    "userName": "aditya"
+}
