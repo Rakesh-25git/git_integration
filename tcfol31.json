@@ -1,0 +1,19 @@
+{
+    "_id": "678f6c210f0e258703ac729f",
+    "childFolders": [],
+    "createdBy": "66fe63f1a503bd0592e89a44",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2025-01-21 09:42:57.568000",
+    "displayOn": "2025-01-21 09:42:57.568000",
+    "isFolder": true,
+    "isTestCase": false,
+    "modifiedBy": "66fe63f1a503bd0592e89a44",
+    "modifiedOn": "2025-01-21 09:42:57.568000",
+    "name": "tcfol31",
+    "parent": "678f6bce0f0e258703ac7299",
+    "path": "tcfol3/tcfol31",
+    "projectId": "678f69550f0e258703ac7276",
+    "testCases": [],
+    "testcase": "",
+    "userName": "aditya"
+}

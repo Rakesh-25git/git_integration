@@ -1,0 +1,58 @@
+{
+    "_id": "678f6bc60f0e258703ac7298",
+    "childFolders": [
+        {
+            "_id": "678f6c040f0e258703ac729c",
+            "childFolders": [],
+            "createdBy": "66fe63f1a503bd0592e89a44",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-01-21 09:42:28.493000",
+            "displayOn": "2025-01-21 09:42:28.493000",
+            "isFolder": true,
+            "isTestCase": false,
+            "modifiedBy": "66fe63f1a503bd0592e89a44",
+            "modifiedOn": "2025-01-21 09:42:37.548000",
+            "name": "tcfol21",
+            "parent": "678f6bc60f0e258703ac7298",
+            "path": "tcfol2/tcfol21",
+            "projectId": "678f69550f0e258703ac7276",
+            "testCases": [
+                {
+                    "_id": "678f6c0d0f0e258703ac729d",
+                    "appType": "Web",
+                    "assignedTo": "aditya",
+                    "createdBy": "66fe63f1a503bd0592e89a44",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-01-21 09:42:37.548000",
+                    "description": "",
+                    "displayOn": "2025-01-21 09:42:37.548000",
+                    "modifiedBy": "66fe63f1a503bd0592e89a44",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-01-21 09:42:37.548000",
+                    "name": "tcase1",
+                    "projectId": "678f69550f0e258703ac7276",
+                    "testCaseFolderId": "678f6c040f0e258703ac729c",
+                    "testStepGroups": [],
+                    "testSteps": ""
+                }
+            ],
+            "testcase": "True",
+            "userName": "aditya"
+        }
+    ],
+    "createdBy": "66fe63f1a503bd0592e89a44",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2025-01-21 09:41:26.274000",
+    "displayOn": "2025-01-21 09:41:26.274000",
+    "isFolder": true,
+    "isTestCase": false,
+    "modifiedBy": "66fe63f1a503bd0592e89a44",
+    "modifiedOn": "2025-01-21 09:41:26.274000",
+    "name": "tcfol2",
+    "parent": null,
+    "path": "tcfol2",
+    "projectId": "678f69550f0e258703ac7276",
+    "testCases": [],
+    "testcase": "",
+    "userName": "aditya"
+}
