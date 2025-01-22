@@ -1,0 +1,58 @@
+{
+    "_id": "678f71df6aa7464286260819",
+    "childFolders": [
+        {
+            "_id": "678f71f96aa746428626081e",
+            "childFolders": [],
+            "createdBy": "672af93805379336e769add4",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-01-21 10:07:53.733000",
+            "displayOn": "2025-01-21 10:07:53.733000",
+            "isFolder": true,
+            "isTestCase": false,
+            "modifiedBy": "672af93805379336e769add4",
+            "modifiedOn": "2025-01-21 10:08:01.357000",
+            "name": "fol11",
+            "parent": "678f71df6aa7464286260819",
+            "path": "fol1/fol11",
+            "projectId": "678f713e6aa7464286260813",
+            "testCases": [
+                {
+                    "_id": "678f72016aa746428626081f",
+                    "appType": "Web",
+                    "assignedTo": "aditya",
+                    "createdBy": "672af93805379336e769add4",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-01-21 10:08:01.357000",
+                    "description": "",
+                    "displayOn": "2025-01-21 10:08:01.357000",
+                    "modifiedBy": "672af93805379336e769add4",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-01-21 10:08:01.357000",
+                    "name": "tc1",
+                    "projectId": "678f713e6aa7464286260813",
+                    "testCaseFolderId": "678f71f96aa746428626081e",
+                    "testStepGroups": [],
+                    "testSteps": ""
+                }
+            ],
+            "testcase": "True",
+            "userName": "aditya"
+        }
+    ],
+    "createdBy": "672af93805379336e769add4",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2025-01-21 10:07:27.291000",
+    "displayOn": "2025-01-21 10:07:27.291000",
+    "isFolder": true,
+    "isTestCase": false,
+    "modifiedBy": "672af93805379336e769add4",
+    "modifiedOn": "2025-01-21 10:07:27.291000",
+    "name": "fol1",
+    "parent": null,
+    "path": "fol1",
+    "projectId": "678f713e6aa7464286260813",
+    "testCases": [],
+    "testcase": "",
+    "userName": "aditya"
+}
