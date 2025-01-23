@@ -1,0 +1,115 @@
+{
+    "_id": "6791e0f95dbc859528f6d172",
+    "childFolders": [
+        {
+            "_id": "6791e1025dbc859528f6d173",
+            "childFolders": [],
+            "createdBy": "672af93805379336e769add4",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-01-23 06:26:10.395000",
+            "displayOn": "2025-01-23 06:26:10.395000",
+            "isFolder": true,
+            "isTestCase": false,
+            "modifiedBy": "672af93805379336e769add4",
+            "modifiedOn": "2025-01-23 06:26:19.059000",
+            "name": "fol41",
+            "parent": "6791e0f95dbc859528f6d172",
+            "path": "fol4/fol41",
+            "projectId": "678f713e6aa7464286260813",
+            "testCases": [
+                {
+                    "_id": "6791e10b5dbc859528f6d174",
+                    "appType": "Web",
+                    "assignedTo": "aditya",
+                    "createdBy": "672af93805379336e769add4",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-01-23 06:26:19.059000",
+                    "description": "",
+                    "displayOn": "2025-01-23 06:26:19.059000",
+                    "modifiedBy": "672af93805379336e769add4",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-01-23 06:26:46.854000",
+                    "name": "tc1",
+                    "projectId": "678f713e6aa7464286260813",
+                    "testCaseFolderId": "6791e1025dbc859528f6d173",
+                    "testStepGroups": [
+                        {
+                            "_id": "6791e1265dbc859528f6d175",
+                            "appType": "Web",
+                            "assignedTo": "aditya",
+                            "createdBy": "672af93805379336e769add4",
+                            "createdByRole": "5db0022cf87fdec084ae49ab",
+                            "createdOn": "2025-01-23 06:26:46.854000",
+                            "displayOn": "2025-01-23 06:26:46.854000",
+                            "groupIndex": 1,
+                            "modifiedBy": "672af93805379336e769add4",
+                            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                            "modifiedOn": "2025-01-23 06:26:46.854000",
+                            "name": "tsg1",
+                            "projectId": "678f713e6aa7464286260813",
+                            "testCaseId": "6791e10b5dbc859528f6d174",
+                            "testSteps": [
+                                {
+                                    "_id": "6791e1265dbc859528f6d176",
+                                    "addDetails": "",
+                                    "appType": "Web",
+                                    "elementId": "",
+                                    "elementRepoId": "",
+                                    "inputVal": [
+                                        ""
+                                    ],
+                                    "keywordVal": "openBrowser",
+                                    "modifiedBy": "672af93805379336e769add4",
+                                    "modifiedOn": "2025-01-23 06:26:46.857000",
+                                    "name": "@Browser",
+                                    "outputVal": "",
+                                    "parentName": "tsg1",
+                                    "remarks": "",
+                                    "stepNo": 1,
+                                    "testStepGroupId": "6791e1265dbc859528f6d175"
+                                },
+                                {
+                                    "_id": "6791e1265dbc859528f6d177",
+                                    "addDetails": "",
+                                    "appType": "Web",
+                                    "elementId": "",
+                                    "elementRepoId": "",
+                                    "inputVal": [
+                                        ""
+                                    ],
+                                    "keywordVal": "closeBrowser",
+                                    "modifiedBy": "672af93805379336e769add4",
+                                    "modifiedOn": "2025-01-23 06:26:46.857000",
+                                    "name": "@Browser",
+                                    "outputVal": "",
+                                    "parentName": "tsg1",
+                                    "remarks": "",
+                                    "stepNo": 2,
+                                    "testStepGroupId": "6791e1265dbc859528f6d175"
+                                }
+                            ]
+                        }
+                    ],
+                    "testSteps": "True"
+                }
+            ],
+            "testcase": "True",
+            "userName": "aditya"
+        }
+    ],
+    "createdBy": "672af93805379336e769add4",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2025-01-23 06:26:01.288000",
+    "displayOn": "2025-01-23 06:26:01.288000",
+    "isFolder": true,
+    "isTestCase": false,
+    "modifiedBy": "672af93805379336e769add4",
+    "modifiedOn": "2025-01-23 06:26:01.288000",
+    "name": "fol4",
+    "parent": null,
+    "path": "fol4",
+    "projectId": "678f713e6aa7464286260813",
+    "testCases": [],
+    "testcase": "",
+    "userName": "aditya"
+}
