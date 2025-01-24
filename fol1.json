@@ -1,0 +1,281 @@
+{
+    "_id": "67933abf5db278b1c0131e07",
+    "childFolders": [
+        {
+            "_id": "67933b205db278b1c0131e0e",
+            "childFolders": [],
+            "createdBy": "672af93805379336e769add4",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-01-24 07:02:56.337000",
+            "displayOn": "2025-01-24 07:02:56.337000",
+            "folderId": "67933abf5db278b1c0131e07",
+            "isLeaf": false,
+            "modifiedBy": "672af93805379336e769add4",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedOn": "2025-01-24 07:03:11.761000",
+            "name": "fol11",
+            "path": "avobank/fol1/fol11",
+            "projectId": "678f713e6aa7464286260813",
+            "repositories": [
+                {
+                    "_id": "67933b2f5db278b1c0131e0f",
+                    "appType": "Web",
+                    "createdBy": "672af93805379336e769add4",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-01-24 07:03:11.761000",
+                    "displayOn": "2025-01-24 07:03:11.761000",
+                    "elements": [
+                        {
+                            "_id": "67933b655db278b1c0131e10",
+                            "elementrepoid": "67933b2f5db278b1c0131e0f",
+                            "fullSS": null,
+                            "height": null,
+                            "hiddentag": null,
+                            "identifierpriority": [
+                                {
+                                    "id": 1,
+                                    "identifier": "cssselector"
+                                },
+                                {
+                                    "id": 2,
+                                    "identifier": "id"
+                                },
+                                {
+                                    "id": 3,
+                                    "identifier": "xpath"
+                                },
+                                {
+                                    "id": 4,
+                                    "identifier": "rxpath"
+                                },
+                                {
+                                    "id": 5,
+                                    "identifier": "name"
+                                },
+                                {
+                                    "id": 6,
+                                    "identifier": "classname"
+                                },
+                                {
+                                    "id": 7,
+                                    "identifier": "href"
+                                },
+                                {
+                                    "id": 8,
+                                    "identifier": "label"
+                                }
+                            ],
+                            "identifiers": {
+                                "classname": "None",
+                                "cssselector": "None",
+                                "href": "None",
+                                "id": "None",
+                                "label": "None",
+                                "name": "etvvfs",
+                                "rxpath": "None",
+                                "xpath": "None"
+                            },
+                            "left": null,
+                            "name": "etvvfs",
+                            "tag": "select",
+                            "tempOrderId": "a9f93f85-e429-45a2-9334-1d461ab2b84a",
+                            "top": null,
+                            "url": null,
+                            "viewTop": null,
+                            "width": null
+                        }
+                    ],
+                    "folderId": "67933b205db278b1c0131e0e",
+                    "modifiedBy": "672af93805379336e769add4",
+                    "modifiedOn": "2025-01-24 07:04:05.457000",
+                    "name": "inner1",
+                    "projectId": "678f713e6aa7464286260813",
+                    "repository": "",
+                    "scrapedUrl": "",
+                    "screenShot": "",
+                    "title": "inner1",
+                    "type": "elementRepo",
+                    "userName": "aditya"
+                }
+            ],
+            "repository": true,
+            "userName": "aditya"
+        }
+    ],
+    "createdBy": "672af93805379336e769add4",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2025-01-24 07:01:19.900000",
+    "displayOn": "2025-01-24 07:01:19.900000",
+    "folderId": "67909ee5a4e5edb5352b5265",
+    "isLeaf": false,
+    "modifiedBy": "672af93805379336e769add4",
+    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+    "modifiedOn": "2025-01-24 07:01:52.987000",
+    "name": "fol1",
+    "path": "avobank/fol1",
+    "projectId": "678f713e6aa7464286260813",
+    "repositories": [
+        {
+            "_id": "67933acb5db278b1c0131e08",
+            "appType": "Web",
+            "createdBy": "672af93805379336e769add4",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-01-24 07:01:31.227000",
+            "displayOn": "2025-01-24 07:01:31.227000",
+            "elements": [
+                {
+                    "_id": "67933ad95db278b1c0131e09",
+                    "elementrepoid": "67933acb5db278b1c0131e08",
+                    "fullSS": null,
+                    "height": null,
+                    "hiddentag": null,
+                    "identifierpriority": [
+                        {
+                            "id": 1,
+                            "identifier": "cssselector"
+                        },
+                        {
+                            "id": 2,
+                            "identifier": "id"
+                        },
+                        {
+                            "id": 3,
+                            "identifier": "xpath"
+                        },
+                        {
+                            "id": 4,
+                            "identifier": "rxpath"
+                        },
+                        {
+                            "id": 5,
+                            "identifier": "name"
+                        },
+                        {
+                            "id": 6,
+                            "identifier": "classname"
+                        },
+                        {
+                            "id": 7,
+                            "identifier": "href"
+                        },
+                        {
+                            "id": 8,
+                            "identifier": "label"
+                        }
+                    ],
+                    "identifiers": {
+                        "classname": "None",
+                        "cssselector": "None",
+                        "href": "None",
+                        "id": "None",
+                        "label": "None",
+                        "name": "efvrev",
+                        "rxpath": "None",
+                        "xpath": "None"
+                    },
+                    "left": null,
+                    "name": "efvrev",
+                    "tag": "a",
+                    "tempOrderId": "ab57945d-e239-459c-8272-4045905de422",
+                    "top": null,
+                    "url": null,
+                    "viewTop": null,
+                    "width": null
+                }
+            ],
+            "folderId": "67933abf5db278b1c0131e07",
+            "modifiedBy": "672af93805379336e769add4",
+            "modifiedOn": "2025-01-24 07:01:45.835000",
+            "name": "repo1",
+            "projectId": "678f713e6aa7464286260813",
+            "repository": "",
+            "scrapedUrl": "",
+            "screenShot": "",
+            "title": "repo1",
+            "type": "elementRepo",
+            "userName": "aditya"
+        },
+        {
+            "_id": "67933ae05db278b1c0131e0a",
+            "appType": "Web",
+            "createdBy": "672af93805379336e769add4",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-01-24 07:01:52.987000",
+            "displayOn": "2025-01-24 07:01:52.987000",
+            "elements": [
+                {
+                    "_id": "67933af35db278b1c0131e0b",
+                    "elementrepoid": "67933ae05db278b1c0131e0a",
+                    "fullSS": null,
+                    "height": null,
+                    "hiddentag": null,
+                    "identifierpriority": [
+                        {
+                            "id": 1,
+                            "identifier": "cssselector"
+                        },
+                        {
+                            "id": 2,
+                            "identifier": "id"
+                        },
+                        {
+                            "id": 3,
+                            "identifier": "xpath"
+                        },
+                        {
+                            "id": 4,
+                            "identifier": "rxpath"
+                        },
+                        {
+                            "id": 5,
+                            "identifier": "name"
+                        },
+                        {
+                            "id": 6,
+                            "identifier": "classname"
+                        },
+                        {
+                            "id": 7,
+                            "identifier": "href"
+                        },
+                        {
+                            "id": 8,
+                            "identifier": "label"
+                        }
+                    ],
+                    "identifiers": {
+                        "classname": "None",
+                        "cssselector": "None",
+                        "href": "None",
+                        "id": "None",
+                        "label": "None",
+                        "name": "rgbrgbthb",
+                        "rxpath": "None",
+                        "xpath": "None"
+                    },
+                    "left": null,
+                    "name": "rgbrgbthb",
+                    "tag": "table",
+                    "tempOrderId": "d6f2cb00-ba6d-4e65-a3dc-2facfae6ec0c",
+                    "top": null,
+                    "url": null,
+                    "viewTop": null,
+                    "width": null
+                }
+            ],
+            "folderId": "67933abf5db278b1c0131e07",
+            "modifiedBy": "672af93805379336e769add4",
+            "modifiedOn": "2025-01-24 07:02:11.972000",
+            "name": "repo2",
+            "projectId": "678f713e6aa7464286260813",
+            "repository": "",
+            "scrapedUrl": "",
+            "screenShot": "",
+            "title": "repo2",
+            "type": "elementRepo",
+            "userName": "aditya"
+        }
+    ],
+    "repository": true,
+    "userName": "aditya"
+}
