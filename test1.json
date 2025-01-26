@@ -1,0 +1,57 @@
+{
+    "_id": "67962c6f23fda95bfadc165d",
+    "childFolders": [
+        {
+            "_id": "67962c7823fda95bfadc165e",
+            "childFolders": [],
+            "createdBy": "672af93805379336e769add4",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-01-26 12:37:12.586000",
+            "displayOn": "2025-01-26 12:37:12.586000",
+            "folderId": "67962c6f23fda95bfadc165d",
+            "isLeaf": false,
+            "modifiedBy": "672af93805379336e769add4",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedOn": "2025-01-26 12:37:22.868000",
+            "name": "inner",
+            "path": "test1/inner",
+            "projectId": "678f713e6aa7464286260813",
+            "repositories": [
+                {
+                    "_id": "67962c8223fda95bfadc165f",
+                    "appType": "Web",
+                    "createdBy": "672af93805379336e769add4",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-01-26 12:37:22.868000",
+                    "displayOn": "2025-01-26 12:37:22.868000",
+                    "elements": [],
+                    "folderId": "67962c7823fda95bfadc165e",
+                    "modifiedBy": "672af93805379336e769add4",
+                    "modifiedOn": "2025-01-26 12:37:22.868000",
+                    "name": "repo1",
+                    "projectId": "678f713e6aa7464286260813",
+                    "title": "repo1",
+                    "type": "elementRepo",
+                    "userName": "aditya"
+                }
+            ],
+            "repository": true,
+            "userName": "aditya"
+        }
+    ],
+    "createdBy": "672af93805379336e769add4",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2025-01-26 12:37:03.954000",
+    "displayOn": "2025-01-26 12:37:03.954000",
+    "folderId": null,
+    "isLeaf": false,
+    "modifiedBy": "672af93805379336e769add4",
+    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+    "modifiedOn": "2025-01-26 12:37:03.954000",
+    "name": "test1",
+    "path": "test1",
+    "projectId": "678f713e6aa7464286260813",
+    "repositories": [],
+    "repository": true,
+    "userName": "aditya"
+}
