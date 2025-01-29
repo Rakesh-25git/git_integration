@@ -1,0 +1,549 @@
+{
+    "_id": "6798b28351699472d6090bd3",
+    "childFolders": [],
+    "createdBy": "675bf2970acf6da77fc41ac5",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2025-01-28 10:33:39.228000",
+    "displayOn": "2025-01-28 10:33:39.228000",
+    "isFolder": true,
+    "isTestCase": false,
+    "modifiedBy": "675bf2970acf6da77fc41ac5",
+    "modifiedOn": "2025-01-28 10:33:49.206000",
+    "name": "Desktop",
+    "parent": "6798ae7751699472d6090ade",
+    "path": "Git/Desktop",
+    "projectId": "6798ae6351699472d6090adc",
+    "testCases": [
+        {
+            "_id": "6798b28d51699472d6090bd4",
+            "appType": "Web",
+            "assignedTo": "rakesh",
+            "createdBy": "675bf2970acf6da77fc41ac5",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-01-28 10:33:49.206000",
+            "description": "",
+            "displayOn": "2025-01-28 10:33:49.206000",
+            "modifiedBy": "675bf2970acf6da77fc41ac5",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedOn": "2025-01-28 10:34:04.361000",
+            "name": "FundTransfer",
+            "projectId": "6798ae6351699472d6090adc",
+            "testCaseFolderId": "6798b28351699472d6090bd3",
+            "testStepGroups": [
+                {
+                    "_id": "6798b29c51699472d6090bec",
+                    "appType": "Desktop",
+                    "assignedTo": "",
+                    "createdBy": "675bf2970acf6da77fc41ac5",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-01-28 10:34:04.354000",
+                    "displayOn": "2025-01-28 10:34:04.354000",
+                    "groupIndex": 1,
+                    "modifiedBy": "675bf2970acf6da77fc41ac5",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-01-28 10:34:04.354000",
+                    "name": "4_Login",
+                    "projectId": "6798ae6351699472d6090adc",
+                    "testCaseId": "6798b28d51699472d6090bd4",
+                    "testSteps": [
+                        {
+                            "_id": "6798b29c51699472d6090bed",
+                            "addDetails": "",
+                            "appType": "Desktop",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "C:\\Users\\rakesh.bhat\\OneDrive - SLK Software Pvt Ltd\\Pictures\\Desktop Applications\\1 Test Application\\AvobankRelease\\Release\\AvoBankDesktop.exe"
+                            ],
+                            "keywordVal": "launchApplication",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-01-28 10:34:04.356000",
+                            "name": "@Window",
+                            "outputVal": "",
+                            "parentName": "4_Login",
+                            "remarks": "",
+                            "stepNo": 1,
+                            "testStepGroupId": "6798b29c51699472d6090bec"
+                        },
+                        {
+                            "_id": "6798b29c51699472d6090bee",
+                            "addDetails": "",
+                            "appType": "Desktop",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "Avo Bank*"
+                            ],
+                            "keywordVal": "findWindowAndAttach",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-01-28 10:34:04.356000",
+                            "name": "@Window",
+                            "outputVal": "",
+                            "parentName": "4_Login",
+                            "remarks": "",
+                            "stepNo": 2,
+                            "testStepGroupId": "6798b29c51699472d6090bec"
+                        },
+                        {
+                            "_id": "6798b29c51699472d6090bef",
+                            "addDetails": "",
+                            "appType": "Desktop",
+                            "elementId": "6798b29b51699472d6090bd7",
+                            "elementRepoId": "6798b29a51699472d6090bd6",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "click",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-01-28 10:34:04.356000",
+                            "name": "Login",
+                            "outputVal": "",
+                            "parentName": "4_Login",
+                            "remarks": "",
+                            "stepNo": 3,
+                            "testStepGroupId": "6798b29c51699472d6090bec"
+                        },
+                        {
+                            "_id": "6798b29c51699472d6090bf0",
+                            "addDetails": "",
+                            "appType": "Desktop",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "Login*"
+                            ],
+                            "keywordVal": "findWindowAndAttach",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-01-28 10:34:04.356000",
+                            "name": "@Window",
+                            "outputVal": "",
+                            "parentName": "4_Login",
+                            "remarks": "",
+                            "stepNo": 4,
+                            "testStepGroupId": "6798b29c51699472d6090bec"
+                        },
+                        {
+                            "_id": "6798b29c51699472d6090bf1",
+                            "addDetails": "",
+                            "appType": "Desktop",
+                            "elementId": "6798b29b51699472d6090bd9",
+                            "elementRepoId": "6798b29a51699472d6090bd6",
+                            "inputVal": [
+                                "Rakesh"
+                            ],
+                            "keywordVal": "setText",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-01-28 10:34:04.356000",
+                            "name": "Username",
+                            "outputVal": "",
+                            "parentName": "4_Login",
+                            "remarks": "",
+                            "stepNo": 5,
+                            "testStepGroupId": "6798b29c51699472d6090bec"
+                        },
+                        {
+                            "_id": "6798b29c51699472d6090bf2",
+                            "addDetails": "",
+                            "appType": "Desktop",
+                            "elementId": "6798b29b51699472d6090bd8",
+                            "elementRepoId": "6798b29a51699472d6090bd6",
+                            "inputVal": [
+                                "Rakesh@123"
+                            ],
+                            "keywordVal": "setText",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-01-28 10:34:04.356000",
+                            "name": "Password",
+                            "outputVal": "",
+                            "parentName": "4_Login",
+                            "remarks": "",
+                            "stepNo": 6,
+                            "testStepGroupId": "6798b29c51699472d6090bec"
+                        },
+                        {
+                            "_id": "6798b29c51699472d6090bf3",
+                            "addDetails": "",
+                            "appType": "Desktop",
+                            "elementId": "6798b29b51699472d6090bda",
+                            "elementRepoId": "6798b29a51699472d6090bd6",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "click",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-01-28 10:34:04.356000",
+                            "name": "Login1",
+                            "outputVal": "",
+                            "parentName": "4_Login",
+                            "remarks": "",
+                            "stepNo": 7,
+                            "testStepGroupId": "6798b29c51699472d6090bec"
+                        }
+                    ]
+                },
+                {
+                    "_id": "6798b29c51699472d6090bf4",
+                    "appType": "Desktop",
+                    "assignedTo": "",
+                    "createdBy": "675bf2970acf6da77fc41ac5",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-01-28 10:34:04.358000",
+                    "displayOn": "2025-01-28 10:34:04.358000",
+                    "groupIndex": 2,
+                    "modifiedBy": "675bf2970acf6da77fc41ac5",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-01-28 10:34:04.358000",
+                    "name": "4_Account Overview",
+                    "projectId": "6798ae6351699472d6090adc",
+                    "testCaseId": "6798b28d51699472d6090bd4",
+                    "testSteps": [
+                        {
+                            "_id": "6798b29c51699472d6090bf5",
+                            "addDetails": "",
+                            "appType": "Desktop",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "Account Overview*"
+                            ],
+                            "keywordVal": "findWindowAndAttach",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-01-28 10:34:04.360000",
+                            "name": "@Window",
+                            "outputVal": "",
+                            "parentName": "4_Account Overview",
+                            "remarks": "",
+                            "stepNo": 1,
+                            "testStepGroupId": "6798b29c51699472d6090bf4"
+                        },
+                        {
+                            "_id": "6798b29c51699472d6090bf6",
+                            "addDetails": "",
+                            "appType": "Desktop",
+                            "elementId": "6798b29b51699472d6090bdc",
+                            "elementRepoId": "6798b29b51699472d6090bdb",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "clickElement",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-01-28 10:34:04.360000",
+                            "name": "Avo Bank Preferred Checking                                                $ 10,000",
+                            "outputVal": "",
+                            "parentName": "4_Account Overview",
+                            "remarks": "",
+                            "stepNo": 2,
+                            "testStepGroupId": "6798b29c51699472d6090bf4"
+                        },
+                        {
+                            "_id": "6798b29c51699472d6090bf7",
+                            "addDetails": "",
+                            "appType": "Desktop",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "Account History*"
+                            ],
+                            "keywordVal": "findWindowAndAttach",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-01-28 10:34:04.360000",
+                            "name": "@Window",
+                            "outputVal": "",
+                            "parentName": "4_Account Overview",
+                            "remarks": "",
+                            "stepNo": 3,
+                            "testStepGroupId": "6798b29c51699472d6090bf4"
+                        },
+                        {
+                            "_id": "6798b29c51699472d6090bf8",
+                            "addDetails": "",
+                            "appType": "Desktop",
+                            "elementId": "6798b29b51699472d6090bdd",
+                            "elementRepoId": "6798b29b51699472d6090bdb",
+                            "inputVal": [
+                                "3"
+                            ],
+                            "keywordVal": "selectValueByIndex",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-01-28 10:34:04.360000",
+                            "name": "Search",
+                            "outputVal": "",
+                            "parentName": "4_Account Overview",
+                            "remarks": "",
+                            "stepNo": 4,
+                            "testStepGroupId": "6798b29c51699472d6090bf4"
+                        },
+                        {
+                            "_id": "6798b29c51699472d6090bf9",
+                            "addDetails": "",
+                            "appType": "Desktop",
+                            "elementId": "6798b29b51699472d6090bde",
+                            "elementRepoId": "6798b29b51699472d6090bdb",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "clickElement",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-01-28 10:34:04.360000",
+                            "name": "Fund Transfer",
+                            "outputVal": "",
+                            "parentName": "4_Account Overview",
+                            "remarks": "",
+                            "stepNo": 5,
+                            "testStepGroupId": "6798b29c51699472d6090bf4"
+                        }
+                    ]
+                },
+                {
+                    "_id": "6798b29c51699472d6090bfa",
+                    "appType": "Desktop",
+                    "assignedTo": "",
+                    "createdBy": "675bf2970acf6da77fc41ac5",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-01-28 10:34:04.361000",
+                    "displayOn": "2025-01-28 10:34:04.361000",
+                    "groupIndex": 3,
+                    "modifiedBy": "675bf2970acf6da77fc41ac5",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-01-28 10:34:04.361000",
+                    "name": "4_Fund Transfer",
+                    "projectId": "6798ae6351699472d6090adc",
+                    "testCaseId": "6798b28d51699472d6090bd4",
+                    "testSteps": [
+                        {
+                            "_id": "6798b29c51699472d6090bfb",
+                            "addDetails": "",
+                            "appType": "Desktop",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "Fund Transfer*"
+                            ],
+                            "keywordVal": "findWindowAndAttach",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-01-28 10:34:04.363000",
+                            "name": "@Window",
+                            "outputVal": "",
+                            "parentName": "4_Fund Transfer",
+                            "remarks": "",
+                            "stepNo": 1,
+                            "testStepGroupId": "6798b29c51699472d6090bfa"
+                        },
+                        {
+                            "_id": "6798b29c51699472d6090bfc",
+                            "addDetails": "",
+                            "appType": "Desktop",
+                            "elementId": "6798b29c51699472d6090be0",
+                            "elementRepoId": "6798b29b51699472d6090bdf",
+                            "inputVal": [
+                                "2"
+                            ],
+                            "keywordVal": "selectValueByIndex",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-01-28 10:34:04.363000",
+                            "name": "Select From Account",
+                            "outputVal": "",
+                            "parentName": "4_Fund Transfer",
+                            "remarks": "",
+                            "stepNo": 2,
+                            "testStepGroupId": "6798b29c51699472d6090bfa"
+                        },
+                        {
+                            "_id": "6798b29c51699472d6090bfd",
+                            "addDetails": "",
+                            "appType": "Desktop",
+                            "elementId": "6798b29c51699472d6090be1",
+                            "elementRepoId": "6798b29b51699472d6090bdf",
+                            "inputVal": [
+                                "3"
+                            ],
+                            "keywordVal": "selectValueByIndex",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-01-28 10:34:04.363000",
+                            "name": "Select To Account",
+                            "outputVal": "",
+                            "parentName": "4_Fund Transfer",
+                            "remarks": "",
+                            "stepNo": 3,
+                            "testStepGroupId": "6798b29c51699472d6090bfa"
+                        },
+                        {
+                            "_id": "6798b29c51699472d6090bfe",
+                            "addDetails": "",
+                            "appType": "Desktop",
+                            "elementId": "6798b29c51699472d6090be3",
+                            "elementRepoId": "6798b29b51699472d6090bdf",
+                            "inputVal": [
+                                "100"
+                            ],
+                            "keywordVal": "setText",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-01-28 10:34:04.363000",
+                            "name": "Transfer Amount",
+                            "outputVal": "",
+                            "parentName": "4_Fund Transfer",
+                            "remarks": "",
+                            "stepNo": 4,
+                            "testStepGroupId": "6798b29c51699472d6090bfa"
+                        },
+                        {
+                            "_id": "6798b29c51699472d6090bff",
+                            "addDetails": "",
+                            "appType": "Desktop",
+                            "elementId": "6798b29c51699472d6090be2",
+                            "elementRepoId": "6798b29b51699472d6090bdf",
+                            "inputVal": [
+                                "3"
+                            ],
+                            "keywordVal": "selectValueByIndex",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-01-28 10:34:04.363000",
+                            "name": "Select Frequency Type",
+                            "outputVal": "",
+                            "parentName": "4_Fund Transfer",
+                            "remarks": "",
+                            "stepNo": 5,
+                            "testStepGroupId": "6798b29c51699472d6090bfa"
+                        },
+                        {
+                            "_id": "6798b29c51699472d6090c00",
+                            "addDetails": "",
+                            "appType": "Desktop",
+                            "elementId": "6798b29c51699472d6090be4",
+                            "elementRepoId": "6798b29b51699472d6090bdf",
+                            "inputVal": [
+                                "For Loan"
+                            ],
+                            "keywordVal": "setText",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-01-28 10:34:04.363000",
+                            "name": "Remarks",
+                            "outputVal": "",
+                            "parentName": "4_Fund Transfer",
+                            "remarks": "",
+                            "stepNo": 6,
+                            "testStepGroupId": "6798b29c51699472d6090bfa"
+                        },
+                        {
+                            "_id": "6798b29c51699472d6090c01",
+                            "addDetails": "",
+                            "appType": "Desktop",
+                            "elementId": "6798b29c51699472d6090be5",
+                            "elementRepoId": "6798b29b51699472d6090bdf",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "click",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-01-28 10:34:04.363000",
+                            "name": "Continue",
+                            "outputVal": "",
+                            "parentName": "4_Fund Transfer",
+                            "remarks": "",
+                            "stepNo": 7,
+                            "testStepGroupId": "6798b29c51699472d6090bfa"
+                        },
+                        {
+                            "_id": "6798b29c51699472d6090c02",
+                            "addDetails": "",
+                            "appType": "Generic",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "2"
+                            ],
+                            "keywordVal": "wait",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-01-28 10:34:04.363000",
+                            "name": "@Generic",
+                            "outputVal": "",
+                            "parentName": "4_Fund Transfer",
+                            "remarks": "",
+                            "stepNo": 8,
+                            "testStepGroupId": "6798b29c51699472d6090bfa"
+                        },
+                        {
+                            "_id": "6798b29c51699472d6090c03",
+                            "addDetails": "",
+                            "appType": "Desktop",
+                            "elementId": "6798b29c51699472d6090be6",
+                            "elementRepoId": "6798b29b51699472d6090bdf",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "click",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-01-28 10:34:04.363000",
+                            "name": "Continue2",
+                            "outputVal": "",
+                            "parentName": "4_Fund Transfer",
+                            "remarks": "",
+                            "stepNo": 9,
+                            "testStepGroupId": "6798b29c51699472d6090bfa"
+                        },
+                        {
+                            "_id": "6798b29c51699472d6090c04",
+                            "addDetails": "",
+                            "appType": "Desktop",
+                            "elementId": "6798b29c51699472d6090be7",
+                            "elementRepoId": "6798b29b51699472d6090bdf",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "clickElement",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-01-28 10:34:04.363000",
+                            "name": "Loans",
+                            "outputVal": "",
+                            "parentName": "4_Fund Transfer",
+                            "remarks": "",
+                            "stepNo": 10,
+                            "testStepGroupId": "6798b29c51699472d6090bfa"
+                        },
+                        {
+                            "_id": "6798b29c51699472d6090c05",
+                            "addDetails": "",
+                            "appType": "Desktop",
+                            "elementId": "6798b29c51699472d6090beb",
+                            "elementRepoId": "6798b29b51699472d6090bdf",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "click",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-01-28 10:34:04.363000",
+                            "name": "Logout",
+                            "outputVal": "",
+                            "parentName": "4_Fund Transfer",
+                            "remarks": "",
+                            "stepNo": 11,
+                            "testStepGroupId": "6798b29c51699472d6090bfa"
+                        },
+                        {
+                            "_id": "6798b29c51699472d6090c06",
+                            "addDetails": "",
+                            "appType": "Desktop",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "closeApplication",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-01-28 10:34:04.363000",
+                            "name": "@Window",
+                            "outputVal": "",
+                            "parentName": "4_Fund Transfer",
+                            "remarks": "",
+                            "stepNo": 12,
+                            "testStepGroupId": "6798b29c51699472d6090bfa"
+                        }
+                    ]
+                }
+            ],
+            "testSteps": "True"
+        }
+    ],
+    "testcase": "True",
+    "userName": "rakesh"
+}
