@@ -1,0 +1,190 @@
+{
+    "_id": "67a1ba5c20be63bd365f0268",
+    "childFolders": [],
+    "createdBy": "675bf2970acf6da77fc41ac5",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2025-02-04 06:57:32.434000",
+    "displayOn": "2025-02-04 06:57:32.434000",
+    "isFolder": true,
+    "isTestCase": false,
+    "modifiedBy": "675bf2970acf6da77fc41ac5",
+    "modifiedOn": "2025-02-04 06:57:37.566000",
+    "name": "Test3",
+    "parent": null,
+    "path": "Test3",
+    "projectId": "67a1ba4f20be63bd365f0266",
+    "testCases": [
+        {
+            "_id": "67a1ba6120be63bd365f0269",
+            "appType": "Web",
+            "assignedTo": "rakesh",
+            "createdBy": "675bf2970acf6da77fc41ac5",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-02-04 06:57:37.566000",
+            "description": "",
+            "displayOn": "2025-02-04 06:57:37.566000",
+            "modifiedBy": "675bf2970acf6da77fc41ac5",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedOn": "2025-02-04 06:57:49.438000",
+            "name": "11",
+            "projectId": "67a1ba4f20be63bd365f0266",
+            "testCaseFolderId": "67a1ba5c20be63bd365f0268",
+            "testStepGroups": [
+                {
+                    "_id": "67a1ba6d20be63bd365f0270",
+                    "appType": "Web",
+                    "assignedTo": "",
+                    "createdBy": "675bf2970acf6da77fc41ac5",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-02-04 06:57:49.438000",
+                    "displayOn": "2025-02-04 06:57:49.438000",
+                    "groupIndex": 1,
+                    "modifiedBy": "675bf2970acf6da77fc41ac5",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-02-04 06:57:49.438000",
+                    "name": "Surath Library",
+                    "projectId": "67a1ba4f20be63bd365f0266",
+                    "testCaseId": "67a1ba6120be63bd365f0269",
+                    "testSteps": [
+                        {
+                            "_id": "67a1ba6d20be63bd365f0271",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "openBrowser",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:57:49.441000",
+                            "name": "@Browser",
+                            "outputVal": "",
+                            "parentName": "Surath Library",
+                            "remarks": "",
+                            "stepNo": 1,
+                            "testStepGroupId": "67a1ba6d20be63bd365f0270"
+                        },
+                        {
+                            "_id": "67a1ba6d20be63bd365f0272",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "https://office.suratmunicipal.org/LMS/Search"
+                            ],
+                            "keywordVal": "navigateToURL",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:57:49.441000",
+                            "name": "@Browser",
+                            "outputVal": "",
+                            "parentName": "Surath Library",
+                            "remarks": "",
+                            "stepNo": 2,
+                            "testStepGroupId": "67a1ba6d20be63bd365f0270"
+                        },
+                        {
+                            "_id": "67a1ba6d20be63bd365f0273",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67a1ba6d20be63bd365f026c",
+                            "elementRepoId": "67a1ba6d20be63bd365f026b",
+                            "inputVal": [
+                                "2"
+                            ],
+                            "keywordVal": "selectValueByIndex",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:57:49.441000",
+                            "name": "DataValueField0",
+                            "outputVal": "",
+                            "parentName": "Surath Library",
+                            "remarks": "",
+                            "stepNo": 3,
+                            "testStepGroupId": "67a1ba6d20be63bd365f0270"
+                        },
+                        {
+                            "_id": "67a1ba6d20be63bd365f0274",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67a1ba6d20be63bd365f026d",
+                            "elementRepoId": "67a1ba6d20be63bd365f026b",
+                            "inputVal": [
+                                "3"
+                            ],
+                            "keywordVal": "selectValueByIndex",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:57:49.441000",
+                            "name": "Classification",
+                            "outputVal": "",
+                            "parentName": "Surath Library",
+                            "remarks": "",
+                            "stepNo": 4,
+                            "testStepGroupId": "67a1ba6d20be63bd365f0270"
+                        },
+                        {
+                            "_id": "67a1ba6d20be63bd365f0275",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67a1ba6d20be63bd365f026e",
+                            "elementRepoId": "67a1ba6d20be63bd365f026b",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "selectRadioButton",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:57:49.441000",
+                            "name": "Author Name",
+                            "outputVal": "",
+                            "parentName": "Surath Library",
+                            "remarks": "",
+                            "stepNo": 5,
+                            "testStepGroupId": "67a1ba6d20be63bd365f0270"
+                        },
+                        {
+                            "_id": "67a1ba6d20be63bd365f0276",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67a1ba6d20be63bd365f026f",
+                            "elementRepoId": "67a1ba6d20be63bd365f026b",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "click",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:57:49.441000",
+                            "name": "Search",
+                            "outputVal": "",
+                            "parentName": "Surath Library",
+                            "remarks": "",
+                            "stepNo": 6,
+                            "testStepGroupId": "67a1ba6d20be63bd365f0270"
+                        },
+                        {
+                            "_id": "67a1ba6d20be63bd365f0277",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "closeBrowser",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:57:49.441000",
+                            "name": "@Browser",
+                            "outputVal": "",
+                            "parentName": "Surath Library",
+                            "remarks": "",
+                            "stepNo": 7,
+                            "testStepGroupId": "67a1ba6d20be63bd365f0270"
+                        }
+                    ]
+                }
+            ],
+            "testSteps": "True"
+        }
+    ],
+    "testcase": "True",
+    "userName": "rakesh"
+}
