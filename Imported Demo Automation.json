@@ -1,0 +1,404 @@
+{
+    "_id": "67a19d8d20be63bd365ef841",
+    "childFolders": [],
+    "createdBy": "675bf2970acf6da77fc41ac5",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2025-02-04 04:54:37.108000",
+    "displayOn": "2025-02-04 04:54:37.108000",
+    "folderId": null,
+    "isLeaf": false,
+    "modifiedBy": "675bf2970acf6da77fc41ac5",
+    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+    "modifiedOn": "2025-02-04 04:54:37.198000",
+    "name": "Imported Demo Automation",
+    "path": "Imported Demo Automation",
+    "projectId": "67a19d2020be63bd365ef82e",
+    "repositories": [
+        {
+            "_id": "67a19d8d20be63bd365ef842",
+            "appType": "Web",
+            "createdBy": "675bf2970acf6da77fc41ac5",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-02-04 04:54:37.198000",
+            "displayOn": "2025-02-04 04:54:37.198000",
+            "elements": [
+                {
+                    "_id": "67a19d8d20be63bd365ef843",
+                    "appType": "Web",
+                    "elementrepoid": "67a19d8d20be63bd365ef842",
+                    "fullSS": null,
+                    "height": 34,
+                    "hiddentag": "No",
+                    "identifierpriority": [
+                        {
+                            "id": 1,
+                            "identifier": "cssselector"
+                        },
+                        {
+                            "id": 2,
+                            "identifier": "id"
+                        },
+                        {
+                            "id": 3,
+                            "identifier": "xpath"
+                        },
+                        {
+                            "id": 4,
+                            "identifier": "rxpath"
+                        },
+                        {
+                            "id": 5,
+                            "identifier": "name"
+                        },
+                        {
+                            "id": 6,
+                            "identifier": "classname"
+                        },
+                        {
+                            "id": 7,
+                            "identifier": "href"
+                        },
+                        {
+                            "id": 8,
+                            "identifier": "label"
+                        }
+                    ],
+                    "identifiers": {
+                        "classname": "form-control ng-pristine ng-untouched ng-invalid ng-invalid-required[0]",
+                        "cssselector": "input[placeholder=\"First Name\"]",
+                        "href": "None",
+                        "id": "None",
+                        "label": "Full Name* ",
+                        "name": "None",
+                        "rxpath": "//form/div[1]/div[1]/input",
+                        "xpath": "/html/body/section/div/div/div[2]/form/div[1]/div[1]/input"
+                    },
+                    "isCustom": null,
+                    "left": 531,
+                    "name": "Full Name*",
+                    "tag": "input",
+                    "tempOrderId": "7e01420d-5aa9-4edf-bf70-e1413bd17230",
+                    "top": 188,
+                    "url": "https://demo.automationtesting.in/Register.html",
+                    "viewTop": null,
+                    "width": 165
+                },
+                {
+                    "_id": "67a19d8d20be63bd365ef844",
+                    "appType": "Web",
+                    "elementrepoid": "67a19d8d20be63bd365ef842",
+                    "fullSS": null,
+                    "height": 13,
+                    "hiddentag": "No",
+                    "identifierpriority": [
+                        {
+                            "id": 1,
+                            "identifier": "cssselector"
+                        },
+                        {
+                            "id": 2,
+                            "identifier": "id"
+                        },
+                        {
+                            "id": 3,
+                            "identifier": "xpath"
+                        },
+                        {
+                            "id": 4,
+                            "identifier": "rxpath"
+                        },
+                        {
+                            "id": 5,
+                            "identifier": "name"
+                        },
+                        {
+                            "id": 6,
+                            "identifier": "classname"
+                        },
+                        {
+                            "id": 7,
+                            "identifier": "href"
+                        },
+                        {
+                            "id": 8,
+                            "identifier": "label"
+                        }
+                    ],
+                    "identifiers": {
+                        "classname": "None",
+                        "cssselector": "input[id=\"checkbox1\"]",
+                        "href": "None",
+                        "id": "checkbox1",
+                        "label": " Cricket ",
+                        "name": "None",
+                        "rxpath": "//div[6]/div/div[1]/input",
+                        "xpath": "/html/body/section/div/div/div[2]/form/div[6]/div/div[1]/input"
+                    },
+                    "isCustom": null,
+                    "left": 581,
+                    "name": "Cricket",
+                    "tag": "checkbox",
+                    "tempOrderId": "8c812f85-810c-48f4-bc0f-f290e9c40c82",
+                    "top": 472,
+                    "url": "https://demo.automationtesting.in/Register.html",
+                    "viewTop": null,
+                    "width": 13
+                },
+                {
+                    "_id": "67a19d8d20be63bd365ef845",
+                    "appType": "Web",
+                    "elementrepoid": "67a19d8d20be63bd365ef842",
+                    "fullSS": null,
+                    "height": 34,
+                    "hiddentag": "No",
+                    "identifierpriority": [
+                        {
+                            "id": 1,
+                            "identifier": "cssselector"
+                        },
+                        {
+                            "id": 2,
+                            "identifier": "id"
+                        },
+                        {
+                            "id": 3,
+                            "identifier": "xpath"
+                        },
+                        {
+                            "id": 4,
+                            "identifier": "rxpath"
+                        },
+                        {
+                            "id": 5,
+                            "identifier": "name"
+                        },
+                        {
+                            "id": 6,
+                            "identifier": "classname"
+                        },
+                        {
+                            "id": 7,
+                            "identifier": "href"
+                        },
+                        {
+                            "id": 8,
+                            "identifier": "label"
+                        }
+                    ],
+                    "identifiers": {
+                        "classname": "form-control ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-minlength",
+                        "cssselector": "input[id=\"firstpassword\"]",
+                        "href": "None",
+                        "id": "firstpassword",
+                        "label": "None",
+                        "name": "None",
+                        "rxpath": "//div[12]/div/input",
+                        "xpath": "/html/body/section/div/div/div[2]/form/div[12]/div/input"
+                    },
+                    "isCustom": null,
+                    "left": 531,
+                    "name": "firstpassword",
+                    "tag": "input",
+                    "tempOrderId": "9245c009-f742-4de0-ad01-7054d1f52595",
+                    "top": 778,
+                    "url": "https://demo.automationtesting.in/Register.html",
+                    "viewTop": null,
+                    "width": 165
+                },
+                {
+                    "_id": "67a19d8d20be63bd365ef846",
+                    "appType": "Web",
+                    "elementrepoid": "67a19d8d20be63bd365ef842",
+                    "fullSS": null,
+                    "height": 34,
+                    "hiddentag": "No",
+                    "identifierpriority": [
+                        {
+                            "id": 1,
+                            "identifier": "cssselector"
+                        },
+                        {
+                            "id": 2,
+                            "identifier": "id"
+                        },
+                        {
+                            "id": 3,
+                            "identifier": "xpath"
+                        },
+                        {
+                            "id": 4,
+                            "identifier": "rxpath"
+                        },
+                        {
+                            "id": 5,
+                            "identifier": "name"
+                        },
+                        {
+                            "id": 6,
+                            "identifier": "classname"
+                        },
+                        {
+                            "id": 7,
+                            "identifier": "href"
+                        },
+                        {
+                            "id": 8,
+                            "identifier": "label"
+                        }
+                    ],
+                    "identifiers": {
+                        "classname": "form-control ng-pristine ng-untouched ng-invalid ng-invalid-required[9]",
+                        "cssselector": "input[id=\"secondpassword\"]",
+                        "href": "None",
+                        "id": "secondpassword",
+                        "label": "None",
+                        "name": "None",
+                        "rxpath": "//div[13]/div/input",
+                        "xpath": "/html/body/section/div/div/div[2]/form/div[13]/div/input"
+                    },
+                    "isCustom": null,
+                    "left": 531,
+                    "name": "secondpassword",
+                    "tag": "input",
+                    "tempOrderId": "fe075650-8b97-491f-90ec-05abb0b7f126",
+                    "top": 827,
+                    "url": "https://demo.automationtesting.in/Register.html",
+                    "viewTop": null,
+                    "width": 165
+                },
+                {
+                    "_id": "67a19d8d20be63bd365ef847",
+                    "appType": "Web",
+                    "elementrepoid": "67a19d8d20be63bd365ef842",
+                    "fullSS": null,
+                    "height": 35,
+                    "hiddentag": "No",
+                    "identifierpriority": [
+                        {
+                            "id": 1,
+                            "identifier": "cssselector"
+                        },
+                        {
+                            "id": 2,
+                            "identifier": "id"
+                        },
+                        {
+                            "id": 3,
+                            "identifier": "xpath"
+                        },
+                        {
+                            "id": 4,
+                            "identifier": "rxpath"
+                        },
+                        {
+                            "id": 5,
+                            "identifier": "name"
+                        },
+                        {
+                            "id": 6,
+                            "identifier": "classname"
+                        },
+                        {
+                            "id": 7,
+                            "identifier": "href"
+                        },
+                        {
+                            "id": 8,
+                            "identifier": "label"
+                        }
+                    ],
+                    "identifiers": {
+                        "classname": "btn btn-primary[0]",
+                        "cssselector": "button[id=\"submitbtn\"]",
+                        "href": "None",
+                        "id": "submitbtn",
+                        "label": " Submit ",
+                        "name": "signup",
+                        "rxpath": "//div[14]/div/button[1]",
+                        "xpath": "/html/body/section/div/div/div[2]/form/div[14]/div/button[1]"
+                    },
+                    "isCustom": null,
+                    "left": 657,
+                    "name": "Submit",
+                    "tag": "button",
+                    "tempOrderId": "f28a4a30-62b7-4dfb-805f-6f8c7c46dfa5",
+                    "top": 889,
+                    "url": "https://demo.automationtesting.in/Register.html",
+                    "viewTop": null,
+                    "width": 71
+                },
+                {
+                    "_id": "67a19d8d20be63bd365ef848",
+                    "appType": "Web",
+                    "elementrepoid": "67a19d8d20be63bd365ef842",
+                    "fullSS": null,
+                    "height": 35,
+                    "hiddentag": "No",
+                    "identifierpriority": [
+                        {
+                            "id": 1,
+                            "identifier": "cssselector"
+                        },
+                        {
+                            "id": 2,
+                            "identifier": "id"
+                        },
+                        {
+                            "id": 3,
+                            "identifier": "xpath"
+                        },
+                        {
+                            "id": 4,
+                            "identifier": "rxpath"
+                        },
+                        {
+                            "id": 5,
+                            "identifier": "name"
+                        },
+                        {
+                            "id": 6,
+                            "identifier": "classname"
+                        },
+                        {
+                            "id": 7,
+                            "identifier": "href"
+                        },
+                        {
+                            "id": 8,
+                            "identifier": "label"
+                        }
+                    ],
+                    "identifiers": {
+                        "classname": "btn btn-primary[1]",
+                        "cssselector": "button[id=\"Button1\"]",
+                        "href": "None",
+                        "id": "Button1",
+                        "label": "Refresh",
+                        "name": "None",
+                        "rxpath": "//button[2]",
+                        "xpath": "/html/body/section/div/div/div[2]/form/div[14]/div/button[2]"
+                    },
+                    "isCustom": null,
+                    "left": 731,
+                    "name": "Refresh",
+                    "tag": "button",
+                    "tempOrderId": "8dfda579-77ed-4b09-b038-b2a47799fada",
+                    "top": 889,
+                    "url": "https://demo.automationtesting.in/Register.html",
+                    "viewTop": null,
+                    "width": 76
+                }
+            ],
+            "folderId": "67a19d8d20be63bd365ef841",
+            "modifiedBy": "675bf2970acf6da77fc41ac5",
+            "modifiedOn": "2025-02-04 04:54:37.339000",
+            "name": "Automation Demo",
+            "projectId": "67a19d2020be63bd365ef82e",
+            "title": "Automation Demo",
+            "type": "elementRepo",
+            "userName": "rakesh"
+        }
+    ],
+    "repository": true,
+    "userName": "rakesh"
+}
