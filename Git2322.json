@@ -1,0 +1,550 @@
+{
+    "_id": "67a1b94f20be63bd365f0210",
+    "childFolders": [],
+    "createdBy": "675bf2970acf6da77fc41ac5",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2025-02-04 06:53:03.993000",
+    "displayOn": "2025-02-04 06:53:03.993000",
+    "isFolder": true,
+    "isTestCase": false,
+    "modifiedBy": "675bf2970acf6da77fc41ac5",
+    "modifiedOn": "2025-02-04 06:53:25.025000",
+    "name": "Git2322",
+    "parent": null,
+    "path": "Git2322",
+    "projectId": "67a1b94720be63bd365f020e",
+    "testCases": [
+        {
+            "_id": "67a1b95520be63bd365f0212",
+            "appType": "Web",
+            "assignedTo": "rakesh",
+            "createdBy": "675bf2970acf6da77fc41ac5",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-02-04 06:53:09.387000",
+            "description": "",
+            "displayOn": "2025-02-04 06:53:09.387000",
+            "modifiedBy": "675bf2970acf6da77fc41ac5",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedOn": "2025-02-04 06:53:17.929000",
+            "name": "Sample",
+            "projectId": "67a1b94720be63bd365f020e",
+            "testCaseFolderId": "67a1b94f20be63bd365f0210",
+            "testStepGroups": [
+                {
+                    "_id": "67a1b95d20be63bd365f0219",
+                    "appType": "Web",
+                    "assignedTo": "",
+                    "createdBy": "675bf2970acf6da77fc41ac5",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-02-04 06:53:17.929000",
+                    "displayOn": "2025-02-04 06:53:17.929000",
+                    "groupIndex": 1,
+                    "modifiedBy": "675bf2970acf6da77fc41ac5",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-02-04 06:53:17.929000",
+                    "name": "Surath Library",
+                    "projectId": "67a1b94720be63bd365f020e",
+                    "testCaseId": "67a1b95520be63bd365f0212",
+                    "testSteps": [
+                        {
+                            "_id": "67a1b95d20be63bd365f021a",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "openBrowser",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:53:17.932000",
+                            "name": "@Browser",
+                            "outputVal": "",
+                            "parentName": "Surath Library",
+                            "remarks": "",
+                            "stepNo": 1,
+                            "testStepGroupId": "67a1b95d20be63bd365f0219"
+                        },
+                        {
+                            "_id": "67a1b95d20be63bd365f021b",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "https://office.suratmunicipal.org/LMS/Search"
+                            ],
+                            "keywordVal": "navigateToURL",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:53:17.932000",
+                            "name": "@Browser",
+                            "outputVal": "",
+                            "parentName": "Surath Library",
+                            "remarks": "",
+                            "stepNo": 2,
+                            "testStepGroupId": "67a1b95d20be63bd365f0219"
+                        },
+                        {
+                            "_id": "67a1b95d20be63bd365f021c",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67a1b95d20be63bd365f0215",
+                            "elementRepoId": "67a1b95d20be63bd365f0214",
+                            "inputVal": [
+                                "2"
+                            ],
+                            "keywordVal": "selectValueByIndex",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:53:17.932000",
+                            "name": "DataValueField0",
+                            "outputVal": "",
+                            "parentName": "Surath Library",
+                            "remarks": "",
+                            "stepNo": 3,
+                            "testStepGroupId": "67a1b95d20be63bd365f0219"
+                        },
+                        {
+                            "_id": "67a1b95d20be63bd365f021d",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67a1b95d20be63bd365f0216",
+                            "elementRepoId": "67a1b95d20be63bd365f0214",
+                            "inputVal": [
+                                "3"
+                            ],
+                            "keywordVal": "selectValueByIndex",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:53:17.932000",
+                            "name": "Classification",
+                            "outputVal": "",
+                            "parentName": "Surath Library",
+                            "remarks": "",
+                            "stepNo": 4,
+                            "testStepGroupId": "67a1b95d20be63bd365f0219"
+                        },
+                        {
+                            "_id": "67a1b95d20be63bd365f021e",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67a1b95d20be63bd365f0217",
+                            "elementRepoId": "67a1b95d20be63bd365f0214",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "selectRadioButton",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:53:17.932000",
+                            "name": "Author Name",
+                            "outputVal": "",
+                            "parentName": "Surath Library",
+                            "remarks": "",
+                            "stepNo": 5,
+                            "testStepGroupId": "67a1b95d20be63bd365f0219"
+                        },
+                        {
+                            "_id": "67a1b95d20be63bd365f021f",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67a1b95d20be63bd365f0218",
+                            "elementRepoId": "67a1b95d20be63bd365f0214",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "click",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:53:17.932000",
+                            "name": "Search",
+                            "outputVal": "",
+                            "parentName": "Surath Library",
+                            "remarks": "",
+                            "stepNo": 6,
+                            "testStepGroupId": "67a1b95d20be63bd365f0219"
+                        },
+                        {
+                            "_id": "67a1b95d20be63bd365f0220",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "closeBrowser",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:53:17.932000",
+                            "name": "@Browser",
+                            "outputVal": "",
+                            "parentName": "Surath Library",
+                            "remarks": "",
+                            "stepNo": 7,
+                            "testStepGroupId": "67a1b95d20be63bd365f0219"
+                        }
+                    ]
+                }
+            ],
+            "testSteps": "True"
+        },
+        {
+            "_id": "67a1b96520be63bd365f0221",
+            "appType": "Web",
+            "assignedTo": "rakesh",
+            "createdBy": "675bf2970acf6da77fc41ac5",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-02-04 06:53:25.025000",
+            "description": "",
+            "displayOn": "2025-02-04 06:53:25.025000",
+            "modifiedBy": "675bf2970acf6da77fc41ac5",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedOn": "2025-02-04 06:53:33.043000",
+            "name": "Test2",
+            "projectId": "67a1b94720be63bd365f020e",
+            "testCaseFolderId": "67a1b94f20be63bd365f0210",
+            "testStepGroups": [
+                {
+                    "_id": "67a1b96d20be63bd365f022d",
+                    "appType": "Web",
+                    "assignedTo": "",
+                    "createdBy": "675bf2970acf6da77fc41ac5",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-02-04 06:53:33.043000",
+                    "displayOn": "2025-02-04 06:53:33.043000",
+                    "groupIndex": 1,
+                    "modifiedBy": "675bf2970acf6da77fc41ac5",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-02-04 06:53:33.043000",
+                    "name": "Automation",
+                    "projectId": "67a1b94720be63bd365f020e",
+                    "testCaseId": "67a1b96520be63bd365f0221",
+                    "testSteps": [
+                        {
+                            "_id": "67a1b96d20be63bd365f022e",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "openBrowser",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:53:33.045000",
+                            "name": "@Browser",
+                            "outputVal": "",
+                            "parentName": "Automation",
+                            "remarks": "",
+                            "stepNo": 1,
+                            "testStepGroupId": "67a1b96d20be63bd365f022d"
+                        },
+                        {
+                            "_id": "67a1b96d20be63bd365f022f",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "https://www.automationtestinginsider.com/2019/08/textarea-textarea-element-defines-multi.html"
+                            ],
+                            "keywordVal": "navigateToURL",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:53:33.045000",
+                            "name": "@Browser",
+                            "outputVal": "",
+                            "parentName": "Automation",
+                            "remarks": "",
+                            "stepNo": 2,
+                            "testStepGroupId": "67a1b96d20be63bd365f022d"
+                        },
+                        {
+                            "_id": "67a1b96d20be63bd365f0230",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67a1b96c20be63bd365f0224",
+                            "elementRepoId": "67a1b96c20be63bd365f0223",
+                            "inputVal": [
+                                "test"
+                            ],
+                            "keywordVal": "setText",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:53:33.045000",
+                            "name": "firstname",
+                            "outputVal": "",
+                            "parentName": "Automation",
+                            "remarks": "",
+                            "stepNo": 3,
+                            "testStepGroupId": "67a1b96d20be63bd365f022d"
+                        },
+                        {
+                            "_id": "67a1b96d20be63bd365f0231",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67a1b96c20be63bd365f0225",
+                            "elementRepoId": "67a1b96c20be63bd365f0223",
+                            "inputVal": [
+                                "test"
+                            ],
+                            "keywordVal": "setText",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:53:33.045000",
+                            "name": "lastname",
+                            "outputVal": "",
+                            "parentName": "Automation",
+                            "remarks": "",
+                            "stepNo": 4,
+                            "testStepGroupId": "67a1b96d20be63bd365f022d"
+                        },
+                        {
+                            "_id": "67a1b96d20be63bd365f0232",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67a1b96c20be63bd365f0226",
+                            "elementRepoId": "67a1b96c20be63bd365f0223",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "selectRadioButton",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:53:33.045000",
+                            "name": "No",
+                            "outputVal": "",
+                            "parentName": "Automation",
+                            "remarks": "",
+                            "stepNo": 5,
+                            "testStepGroupId": "67a1b96d20be63bd365f022d"
+                        },
+                        {
+                            "_id": "67a1b96d20be63bd365f0233",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67a1b96c20be63bd365f0226",
+                            "elementRepoId": "67a1b96c20be63bd365f0223",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "getStatus",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:53:33.045000",
+                            "name": "No",
+                            "outputVal": "",
+                            "parentName": "Automation",
+                            "remarks": "",
+                            "stepNo": 6,
+                            "testStepGroupId": "67a1b96d20be63bd365f022d"
+                        },
+                        {
+                            "_id": "67a1b96d20be63bd365f0234",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67a1b96c20be63bd365f0227",
+                            "elementRepoId": "67a1b96c20be63bd365f0223",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "selectCheckbox",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:53:33.045000",
+                            "name": "Checkbox2",
+                            "outputVal": "",
+                            "parentName": "Automation",
+                            "remarks": "",
+                            "stepNo": 7,
+                            "testStepGroupId": "67a1b96d20be63bd365f022d"
+                        },
+                        {
+                            "_id": "67a1b96d20be63bd365f0235",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67a1b96c20be63bd365f0227",
+                            "elementRepoId": "67a1b96c20be63bd365f0223",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "unselectCheckbox",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:53:33.045000",
+                            "name": "Checkbox2",
+                            "outputVal": "",
+                            "parentName": "Automation",
+                            "remarks": "",
+                            "stepNo": 8,
+                            "testStepGroupId": "67a1b96d20be63bd365f022d"
+                        },
+                        {
+                            "_id": "67a1b96d20be63bd365f0236",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67a1b96c20be63bd365f0228",
+                            "elementRepoId": "67a1b96c20be63bd365f0223",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "getCount",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:53:33.045000",
+                            "name": "volvo",
+                            "outputVal": "",
+                            "parentName": "Automation",
+                            "remarks": "",
+                            "stepNo": 9,
+                            "testStepGroupId": "67a1b96d20be63bd365f022d"
+                        },
+                        {
+                            "_id": "67a1b96d20be63bd365f0237",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67a1b96c20be63bd365f0228",
+                            "elementRepoId": "67a1b96c20be63bd365f0223",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "getAllValues",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:53:33.045000",
+                            "name": "volvo",
+                            "outputVal": "",
+                            "parentName": "Automation",
+                            "remarks": "",
+                            "stepNo": 10,
+                            "testStepGroupId": "67a1b96d20be63bd365f022d"
+                        },
+                        {
+                            "_id": "67a1b96d20be63bd365f0238",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67a1b96c20be63bd365f0228",
+                            "elementRepoId": "67a1b96c20be63bd365f0223",
+                            "inputVal": [
+                                "2"
+                            ],
+                            "keywordVal": "selectValueByIndex",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:53:33.045000",
+                            "name": "volvo",
+                            "outputVal": "",
+                            "parentName": "Automation",
+                            "remarks": "",
+                            "stepNo": 11,
+                            "testStepGroupId": "67a1b96d20be63bd365f022d"
+                        },
+                        {
+                            "_id": "67a1b96d20be63bd365f0239",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67a1b96c20be63bd365f0229",
+                            "elementRepoId": "67a1b96c20be63bd365f0223",
+                            "inputVal": [
+                                "C:\\Users\\nandakumar.r\\OneDrive - SLK Software Pvt Ltd\\Desktop;imports.xlsx"
+                            ],
+                            "keywordVal": "uploadFile",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:53:33.045000",
+                            "name": "fileupload",
+                            "outputVal": "",
+                            "parentName": "Automation",
+                            "remarks": "",
+                            "stepNo": 12,
+                            "testStepGroupId": "67a1b96d20be63bd365f022d"
+                        },
+                        {
+                            "_id": "67a1b96d20be63bd365f023a",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67a1b96c20be63bd365f022a",
+                            "elementRepoId": "67a1b96c20be63bd365f0223",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "click",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:53:33.045000",
+                            "name": "Simple Alert",
+                            "outputVal": "",
+                            "parentName": "Automation",
+                            "remarks": "",
+                            "stepNo": 13,
+                            "testStepGroupId": "67a1b96d20be63bd365f022d"
+                        },
+                        {
+                            "_id": "67a1b96d20be63bd365f023b",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "acceptPopUp",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:53:33.046000",
+                            "name": "@BrowserPopUp",
+                            "outputVal": "",
+                            "parentName": "Automation",
+                            "remarks": "",
+                            "stepNo": 14,
+                            "testStepGroupId": "67a1b96d20be63bd365f022d"
+                        },
+                        {
+                            "_id": "67a1b96d20be63bd365f023c",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67a1b96c20be63bd365f022b",
+                            "elementRepoId": "67a1b96c20be63bd365f0223",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "click",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:53:33.046000",
+                            "name": "Click Me",
+                            "outputVal": "",
+                            "parentName": "Automation",
+                            "remarks": "",
+                            "stepNo": 15,
+                            "testStepGroupId": "67a1b96d20be63bd365f022d"
+                        },
+                        {
+                            "_id": "67a1b96d20be63bd365f023d",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67a1b96c20be63bd365f022c",
+                            "elementRepoId": "67a1b96c20be63bd365f0223",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "selectCheckbox",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:53:33.046000",
+                            "name": "on",
+                            "outputVal": "",
+                            "parentName": "Automation",
+                            "remarks": "",
+                            "stepNo": 16,
+                            "testStepGroupId": "67a1b96d20be63bd365f022d"
+                        },
+                        {
+                            "_id": "67a1b96d20be63bd365f023e",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "closeBrowser",
+                            "modifiedBy": "675bf2970acf6da77fc41ac5",
+                            "modifiedOn": "2025-02-04 06:53:33.046000",
+                            "name": "@Browser",
+                            "outputVal": "",
+                            "parentName": "Automation",
+                            "remarks": "",
+                            "stepNo": 17,
+                            "testStepGroupId": "67a1b96d20be63bd365f022d"
+                        }
+                    ]
+                }
+            ],
+            "testSteps": "True"
+        }
+    ],
+    "testcase": "True",
+    "userName": "rakesh"
+}
