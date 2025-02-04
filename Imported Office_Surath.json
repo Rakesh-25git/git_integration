@@ -1,0 +1,282 @@
+{
+    "_id": "67a19d4820be63bd365ef832",
+    "childFolders": [],
+    "createdBy": "675bf2970acf6da77fc41ac5",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2025-02-04 04:53:28.350000",
+    "displayOn": "2025-02-04 04:53:28.350000",
+    "folderId": null,
+    "isLeaf": false,
+    "modifiedBy": "675bf2970acf6da77fc41ac5",
+    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+    "modifiedOn": "2025-02-04 04:53:28.425000",
+    "name": "Imported Office_Surath",
+    "path": "Imported Office_Surath",
+    "projectId": "67a19d2020be63bd365ef82e",
+    "repositories": [
+        {
+            "_id": "67a19d4820be63bd365ef833",
+            "appType": "Web",
+            "createdBy": "675bf2970acf6da77fc41ac5",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-02-04 04:53:28.425000",
+            "displayOn": "2025-02-04 04:53:28.425000",
+            "elements": [
+                {
+                    "_id": "67a19d4820be63bd365ef834",
+                    "appType": "Web",
+                    "elementrepoid": "67a19d4820be63bd365ef833",
+                    "fullSS": true,
+                    "height": 34,
+                    "hiddentag": "No",
+                    "identifierpriority": [
+                        {
+                            "id": 1,
+                            "identifier": "cssselector"
+                        },
+                        {
+                            "id": 2,
+                            "identifier": "id"
+                        },
+                        {
+                            "id": 3,
+                            "identifier": "xpath"
+                        },
+                        {
+                            "id": 4,
+                            "identifier": "rxpath"
+                        },
+                        {
+                            "id": 5,
+                            "identifier": "name"
+                        },
+                        {
+                            "id": 6,
+                            "identifier": "classname"
+                        },
+                        {
+                            "id": 7,
+                            "identifier": "href"
+                        },
+                        {
+                            "id": 8,
+                            "identifier": "label"
+                        }
+                    ],
+                    "identifiers": {
+                        "classname": "form-control[0]",
+                        "cssselector": "select[id=\"drpLibrary\"]",
+                        "href": "None",
+                        "id": "drpLibrary",
+                        "label": "None",
+                        "name": "DataValueField[0]",
+                        "rxpath": "//div[1]/div/div/select",
+                        "xpath": "/html/body/div/div[1]/div[1]/div[2]/div[1]/div/div/select"
+                    },
+                    "isCustom": null,
+                    "left": 422,
+                    "name": "DataValueField0",
+                    "tag": "select",
+                    "tempOrderId": "90d017ca-2200-4a88-a6c4-7dcdd327c5c3",
+                    "top": 126,
+                    "url": "https://office.suratmunicipal.org/LMS/Search",
+                    "viewTop": 125.80000305175781,
+                    "width": 414
+                },
+                {
+                    "_id": "67a19d4820be63bd365ef835",
+                    "appType": "Web",
+                    "elementrepoid": "67a19d4820be63bd365ef833",
+                    "fullSS": true,
+                    "height": 34,
+                    "hiddentag": "No",
+                    "identifierpriority": [
+                        {
+                            "id": 1,
+                            "identifier": "cssselector"
+                        },
+                        {
+                            "id": 2,
+                            "identifier": "id"
+                        },
+                        {
+                            "id": 3,
+                            "identifier": "xpath"
+                        },
+                        {
+                            "id": 4,
+                            "identifier": "rxpath"
+                        },
+                        {
+                            "id": 5,
+                            "identifier": "name"
+                        },
+                        {
+                            "id": 6,
+                            "identifier": "classname"
+                        },
+                        {
+                            "id": 7,
+                            "identifier": "href"
+                        },
+                        {
+                            "id": 8,
+                            "identifier": "label"
+                        }
+                    ],
+                    "identifiers": {
+                        "classname": "form-control[1]",
+                        "cssselector": "select[id=\"drpClassification\"]",
+                        "href": "None",
+                        "id": "drpClassification",
+                        "label": "\n                Classification\n            ",
+                        "name": "DataValueField[1]",
+                        "rxpath": "//div[2]/div/div/select",
+                        "xpath": "/html/body/div/div[1]/div[1]/div[2]/div[2]/div/div/select"
+                    },
+                    "isCustom": null,
+                    "left": 422,
+                    "name": "Classification",
+                    "tag": "select",
+                    "tempOrderId": "151aaf9e-6ab3-4875-b500-36a3175fe561",
+                    "top": 175,
+                    "url": "https://office.suratmunicipal.org/LMS/Search",
+                    "viewTop": 174.8000030517578,
+                    "width": 414
+                },
+                {
+                    "_id": "67a19d4820be63bd365ef836",
+                    "appType": "Web",
+                    "elementrepoid": "67a19d4820be63bd365ef833",
+                    "fullSS": true,
+                    "height": 13,
+                    "hiddentag": "No",
+                    "identifierpriority": [
+                        {
+                            "id": 1,
+                            "identifier": "cssselector"
+                        },
+                        {
+                            "id": 2,
+                            "identifier": "id"
+                        },
+                        {
+                            "id": 3,
+                            "identifier": "xpath"
+                        },
+                        {
+                            "id": 4,
+                            "identifier": "rxpath"
+                        },
+                        {
+                            "id": 5,
+                            "identifier": "name"
+                        },
+                        {
+                            "id": 6,
+                            "identifier": "classname"
+                        },
+                        {
+                            "id": 7,
+                            "identifier": "href"
+                        },
+                        {
+                            "id": 8,
+                            "identifier": "label"
+                        }
+                    ],
+                    "identifiers": {
+                        "classname": "None",
+                        "cssselector": "input[id=\"rdAuthorName\"]",
+                        "href": "None",
+                        "id": "rdAuthorName",
+                        "label": "Author Name",
+                        "name": "SearchBy[1]",
+                        "rxpath": "//label[2]/input",
+                        "xpath": "/html/body/div/div[1]/div[1]/div[2]/div[3]/div/div/label[2]/input"
+                    },
+                    "isCustom": null,
+                    "left": 484,
+                    "name": "Author Name",
+                    "tag": "radiobutton",
+                    "tempOrderId": "aaeffb5d-e8e5-455f-9476-da2e9110bfb7",
+                    "top": 235,
+                    "url": "https://office.suratmunicipal.org/LMS/Search",
+                    "viewTop": 234.8000030517578,
+                    "width": 13
+                },
+                {
+                    "_id": "67a19d4820be63bd365ef837",
+                    "appType": "Web",
+                    "elementrepoid": "67a19d4820be63bd365ef833",
+                    "fullSS": true,
+                    "height": 35,
+                    "hiddentag": "No",
+                    "identifierpriority": [
+                        {
+                            "id": 1,
+                            "identifier": "cssselector"
+                        },
+                        {
+                            "id": 2,
+                            "identifier": "id"
+                        },
+                        {
+                            "id": 3,
+                            "identifier": "xpath"
+                        },
+                        {
+                            "id": 4,
+                            "identifier": "rxpath"
+                        },
+                        {
+                            "id": 5,
+                            "identifier": "name"
+                        },
+                        {
+                            "id": 6,
+                            "identifier": "classname"
+                        },
+                        {
+                            "id": 7,
+                            "identifier": "href"
+                        },
+                        {
+                            "id": 8,
+                            "identifier": "label"
+                        }
+                    ],
+                    "identifiers": {
+                        "classname": "btn btn-primary[0]",
+                        "cssselector": "button[id=\"btnSearch\"]",
+                        "href": "None",
+                        "id": "btnSearch",
+                        "label": "\n                    Search\n                ",
+                        "name": "None",
+                        "rxpath": "//div[5]/div/button[1]",
+                        "xpath": "/html/body/div/div[1]/div[1]/div[2]/div[5]/div/button[1]"
+                    },
+                    "isCustom": null,
+                    "left": 381,
+                    "name": "Search",
+                    "tag": "button",
+                    "tempOrderId": "234c020d-5c4e-4179-a8d6-904231d5327b",
+                    "top": 315,
+                    "url": "https://office.suratmunicipal.org/LMS/Search",
+                    "viewTop": 314.8000183105469,
+                    "width": 85
+                }
+            ],
+            "folderId": "67a19d4820be63bd365ef832",
+            "modifiedBy": "675bf2970acf6da77fc41ac5",
+            "modifiedOn": "2025-02-04 04:53:28.582000",
+            "name": "Surath Library",
+            "projectId": "67a19d2020be63bd365ef82e",
+            "title": "Surath Library",
+            "type": "elementRepo",
+            "userName": "rakesh"
+        }
+    ],
+    "repository": true,
+    "userName": "rakesh"
+}
