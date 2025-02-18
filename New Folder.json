@@ -1,0 +1,38 @@
+{
+    "_id": "67b46f9e1382053840c709ad",
+    "childFolders": [],
+    "createdBy": "67af02472d6dcd1ec93139e8",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2025-02-18 11:31:42.083000",
+    "displayOn": "2025-02-18 11:31:42.083000",
+    "isFolder": true,
+    "isTestCase": false,
+    "modifiedBy": "67af02472d6dcd1ec93139e8",
+    "modifiedOn": "2025-02-18 11:31:43.628000",
+    "name": "New Folder",
+    "parent": null,
+    "path": "New Folder",
+    "projectId": "67b44fd5d302c6e307fe35fc",
+    "testCases": [
+        {
+            "_id": "67b46f9f1382053840c709ae",
+            "appType": "Web",
+            "assignedTo": "harshini",
+            "createdBy": "67af02472d6dcd1ec93139e8",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-02-18 11:31:43.628000",
+            "description": "",
+            "displayOn": "2025-02-18 11:31:43.628000",
+            "modifiedBy": "67af02472d6dcd1ec93139e8",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedOn": "2025-02-18 11:31:43.628000",
+            "name": "New Testcase",
+            "projectId": "67b44fd5d302c6e307fe35fc",
+            "testCaseFolderId": "67b46f9e1382053840c709ad",
+            "testStepGroups": [],
+            "testSteps": ""
+        }
+    ],
+    "testcase": "True",
+    "userName": "harshini"
+}
