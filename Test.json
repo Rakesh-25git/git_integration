@@ -1,0 +1,1016 @@
+{
+    "_id": "67763ce084ed7a3b64a67607",
+    "childFolders": [],
+    "createdBy": "677220c184ed7a3b64a6704f",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2025-01-02 07:14:40.612000",
+    "displayOn": "2025-01-02 07:14:40.612000",
+    "isFolder": true,
+    "isTestCase": false,
+    "modifiedBy": "677220c184ed7a3b64a6704f",
+    "modifiedOn": "2025-02-13 07:12:31.189000",
+    "name": "Test",
+    "parent": null,
+    "path": "Test",
+    "projectId": "6776358084ed7a3b64a675e5",
+    "testCases": [
+        {
+            "_id": "6776362d84ed7a3b64a675f6",
+            "appType": "Web",
+            "assignedTo": "harshini",
+            "createdBy": "677220c184ed7a3b64a6704f",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-01-02 06:46:05.056000",
+            "description": "",
+            "displayOn": "2025-01-02 06:46:05.056000",
+            "modifiedBy": "677220c184ed7a3b64a6704f",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedOn": "2025-01-09 03:57:23.016000",
+            "name": "Param",
+            "projectId": "6776358084ed7a3b64a675e5",
+            "testCaseFolderId": "67763ce084ed7a3b64a67607",
+            "testStepGroups": [
+                {
+                    "_id": "6776362d84ed7a3b64a675fa",
+                    "appType": "Web",
+                    "assignedTo": "harshini",
+                    "createdBy": "677220c184ed7a3b64a6704f",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-01-07 10:11:49.761000",
+                    "displayOn": "2025-01-07 10:11:49.761000",
+                    "groupIndex": 1,
+                    "modifiedBy": "677220c184ed7a3b64a6704f",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-01-07 10:11:49.761000",
+                    "name": "Home",
+                    "projectId": "6776358084ed7a3b64a675e5",
+                    "testCaseId": "6776362d84ed7a3b64a675f6",
+                    "testSteps": [
+                        {
+                            "_id": "6776362d84ed7a3b64a675fb",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "openBrowser",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-07 10:11:49.763000",
+                            "name": "@Browser",
+                            "outputVal": "",
+                            "parentName": "Home",
+                            "remarks": "",
+                            "stepNo": 1,
+                            "testStepGroupId": "6776362d84ed7a3b64a675fa"
+                        },
+                        {
+                            "_id": "6776362d84ed7a3b64a675fc",
+                            "addDetails": "",
+                            "appType": "Generic",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "C:\\Users\\harshini.s\\Downloads\\Genius_dataparam_export_1735800325807.xlsx;data"
+                            ],
+                            "keywordVal": "getParam",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-07 10:11:49.763000",
+                            "name": "@Generic",
+                            "outputVal": "",
+                            "parentName": "Home",
+                            "remarks": "",
+                            "stepNo": 2,
+                            "testStepGroupId": "6776362d84ed7a3b64a675fa"
+                        },
+                        {
+                            "_id": "6776362d84ed7a3b64a675fd",
+                            "addDetails": "",
+                            "appType": "Generic",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "startLoop",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-07 10:11:49.763000",
+                            "name": "@Generic",
+                            "outputVal": "",
+                            "parentName": "Home",
+                            "remarks": "",
+                            "stepNo": 3,
+                            "testStepGroupId": "6776362d84ed7a3b64a675fa"
+                        },
+                        {
+                            "_id": "6776362d84ed7a3b64a675fe",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "https://avotestlab.avoassure.ai/"
+                            ],
+                            "keywordVal": "navigateToURL",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-07 10:11:49.763000",
+                            "name": "@Browser",
+                            "outputVal": "",
+                            "parentName": "Home",
+                            "remarks": "",
+                            "stepNo": 4,
+                            "testStepGroupId": "6776362d84ed7a3b64a675fa"
+                        },
+                        {
+                            "_id": "6776362d84ed7a3b64a675ff",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "6776362d84ed7a3b64a675f9",
+                            "elementRepoId": "6776362d84ed7a3b64a675f8",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "click",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-07 10:11:49.763000",
+                            "name": "Log_In",
+                            "outputVal": "",
+                            "parentName": "Home",
+                            "remarks": "",
+                            "stepNo": 5,
+                            "testStepGroupId": "6776362d84ed7a3b64a675fa"
+                        }
+                    ]
+                },
+                {
+                    "_id": "6776362e84ed7a3b64a67603",
+                    "appType": "Web",
+                    "assignedTo": "harshini",
+                    "createdBy": "677220c184ed7a3b64a6704f",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-01-07 10:11:49.764000",
+                    "displayOn": "2025-01-07 10:11:49.764000",
+                    "groupIndex": 2,
+                    "modifiedBy": "677220c184ed7a3b64a6704f",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-01-07 10:11:49.764000",
+                    "name": "Login",
+                    "projectId": "6776358084ed7a3b64a675e5",
+                    "testCaseId": "6776362d84ed7a3b64a675f6",
+                    "testSteps": [
+                        {
+                            "_id": "6776362e84ed7a3b64a67604",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "6776362d84ed7a3b64a67601",
+                            "elementRepoId": "6776362d84ed7a3b64a67600",
+                            "inputVal": [
+                                "|Username|"
+                            ],
+                            "keywordVal": "setText",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-07 10:11:49.766000",
+                            "name": "Username",
+                            "outputVal": "",
+                            "parentName": "Login",
+                            "remarks": "",
+                            "stepNo": 1,
+                            "testStepGroupId": "6776362e84ed7a3b64a67603"
+                        },
+                        {
+                            "_id": "6776362e84ed7a3b64a67605",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "6776362d84ed7a3b64a67602",
+                            "elementRepoId": "6776362d84ed7a3b64a67600",
+                            "inputVal": [
+                                "|Password|"
+                            ],
+                            "keywordVal": "setText",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-07 10:11:49.766000",
+                            "name": "Password",
+                            "outputVal": "",
+                            "parentName": "Login",
+                            "remarks": "",
+                            "stepNo": 2,
+                            "testStepGroupId": "6776362e84ed7a3b64a67603"
+                        },
+                        {
+                            "_id": "6776362e84ed7a3b64a67606",
+                            "addDetails": "",
+                            "appType": "Generic",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "endLoop",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-07 10:11:49.766000",
+                            "name": "@Generic",
+                            "outputVal": "",
+                            "parentName": "Login",
+                            "remarks": "",
+                            "stepNo": 3,
+                            "testStepGroupId": "6776362e84ed7a3b64a67603"
+                        }
+                    ]
+                },
+                {
+                    "_id": "677cfde5212da0d1cfea90fc",
+                    "appType": "Web",
+                    "assignedTo": "harshini",
+                    "createdBy": "677220c184ed7a3b64a6704f",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-01-07 10:11:49.768000",
+                    "displayOn": "2025-01-07 10:11:49.768000",
+                    "groupIndex": 3,
+                    "modifiedBy": "677220c184ed7a3b64a6704f",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-01-07 10:11:49.768000",
+                    "name": "test",
+                    "projectId": "6776358084ed7a3b64a675e5",
+                    "testCaseId": "6776362d84ed7a3b64a675f6",
+                    "testSteps": [
+                        {
+                            "_id": "677cfde5212da0d1cfea90fd",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "677cfda5212da0d1cfea90f9",
+                            "elementRepoId": "677635ce84ed7a3b64a675f0",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "getText",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-07 10:11:49.770000",
+                            "name": "Loan Table 2",
+                            "outputVal": "{tt}",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 1,
+                            "testStepGroupId": "677cfde5212da0d1cfea90fc"
+                        },
+                        {
+                            "_id": "677cfde5212da0d1cfea90fe",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "677cfda5212da0d1cfea90f8",
+                            "elementRepoId": "677635ce84ed7a3b64a675f0",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "getElementText",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-07 10:11:49.770000",
+                            "name": "Loan Table",
+                            "outputVal": "{iy}",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 2,
+                            "testStepGroupId": "677cfde5212da0d1cfea90fc"
+                        }
+                    ]
+                }
+            ],
+            "testSteps": "True"
+        },
+        {
+            "_id": "67763ce084ed7a3b64a67608",
+            "appType": "Web",
+            "assignedTo": "harshini",
+            "createdBy": "677220c184ed7a3b64a6704f",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-01-02 07:14:40.743000",
+            "description": "",
+            "displayOn": "2025-01-02 07:14:40.743000",
+            "modifiedBy": "677220c184ed7a3b64a6704f",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedOn": "2025-01-02 07:14:41.364000",
+            "name": "APP",
+            "projectId": "6776358084ed7a3b64a675e5",
+            "testCaseFolderId": "67763ce084ed7a3b64a67607",
+            "testStepGroups": [
+                {
+                    "_id": "67763ce184ed7a3b64a67613",
+                    "appType": "Web",
+                    "assignedTo": "",
+                    "createdBy": "677220c184ed7a3b64a6704f",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-01-02 07:14:41.364000",
+                    "displayOn": "2025-01-02 07:14:41.364000",
+                    "groupIndex": 1,
+                    "modifiedBy": "677220c184ed7a3b64a6704f",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-01-02 07:14:41.364000",
+                    "name": "Applause",
+                    "projectId": "6776358084ed7a3b64a675e5",
+                    "testCaseId": "67763ce084ed7a3b64a67608",
+                    "testSteps": [
+                        {
+                            "_id": "67763ce184ed7a3b64a67614",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "openBrowser",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-02 07:14:41.367000",
+                            "name": "@Browser",
+                            "outputVal": "",
+                            "parentName": "Applause",
+                            "remarks": "",
+                            "stepNo": 1,
+                            "testStepGroupId": "67763ce184ed7a3b64a67613"
+                        },
+                        {
+                            "_id": "67763ce184ed7a3b64a67615",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "C:\\Users\\harshini.s\\Downloads\\Genius_dataparam_export_1735802054714.xlsx;data"
+                            ],
+                            "keywordVal": "getParam",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-02 07:14:41.367000",
+                            "name": "@Generic",
+                            "outputVal": "",
+                            "parentName": "Applause",
+                            "remarks": "",
+                            "stepNo": 2,
+                            "testStepGroupId": "67763ce184ed7a3b64a67613"
+                        },
+                        {
+                            "_id": "67763ce184ed7a3b64a67616",
+                            "addDetails": "",
+                            "appType": "Generic",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "startLoop",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-02 07:14:41.367000",
+                            "name": "@Generic",
+                            "outputVal": "",
+                            "parentName": "Applause",
+                            "remarks": "",
+                            "stepNo": 3,
+                            "testStepGroupId": "67763ce184ed7a3b64a67613"
+                        },
+                        {
+                            "_id": "67763ce184ed7a3b64a67617",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "https://applause.avoassurecloud.com/"
+                            ],
+                            "keywordVal": "navigateToURL",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-02 07:14:41.367000",
+                            "name": "@Browser",
+                            "outputVal": "",
+                            "parentName": "Applause",
+                            "remarks": "",
+                            "stepNo": 4,
+                            "testStepGroupId": "67763ce184ed7a3b64a67613"
+                        },
+                        {
+                            "_id": "67763ce184ed7a3b64a67618",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67763ce184ed7a3b64a6760b",
+                            "elementRepoId": "67763ce184ed7a3b64a6760a",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "click",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-02 07:14:41.367000",
+                            "name": "Sign_In",
+                            "outputVal": "",
+                            "parentName": "Applause",
+                            "remarks": "",
+                            "stepNo": 5,
+                            "testStepGroupId": "67763ce184ed7a3b64a67613"
+                        },
+                        {
+                            "_id": "67763ce184ed7a3b64a67619",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67763ce184ed7a3b64a6760c",
+                            "elementRepoId": "67763ce184ed7a3b64a6760a",
+                            "inputVal": [
+                                "|Enter_your_email|"
+                            ],
+                            "keywordVal": "setText",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-02 07:14:41.367000",
+                            "name": "Enter_your_email",
+                            "outputVal": "",
+                            "parentName": "Applause",
+                            "remarks": "",
+                            "stepNo": 6,
+                            "testStepGroupId": "67763ce184ed7a3b64a67613"
+                        },
+                        {
+                            "_id": "67763ce184ed7a3b64a6761a",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67763ce184ed7a3b64a6760d",
+                            "elementRepoId": "67763ce184ed7a3b64a6760a",
+                            "inputVal": [
+                                "|Enter_your_password|"
+                            ],
+                            "keywordVal": "setText",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-02 07:14:41.367000",
+                            "name": "Enter_your_password",
+                            "outputVal": "",
+                            "parentName": "Applause",
+                            "remarks": "",
+                            "stepNo": 7,
+                            "testStepGroupId": "67763ce184ed7a3b64a67613"
+                        },
+                        {
+                            "_id": "67763ce184ed7a3b64a6761b",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67763ce184ed7a3b64a6760e",
+                            "elementRepoId": "67763ce184ed7a3b64a6760a",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "click",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-02 07:14:41.367000",
+                            "name": "Log_In",
+                            "outputVal": "",
+                            "parentName": "Applause",
+                            "remarks": "",
+                            "stepNo": 8,
+                            "testStepGroupId": "67763ce184ed7a3b64a67613"
+                        },
+                        {
+                            "_id": "67763ce184ed7a3b64a6761c",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67763ce184ed7a3b64a6760f",
+                            "elementRepoId": "67763ce184ed7a3b64a6760a",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "click",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-02 07:14:41.367000",
+                            "name": "9250",
+                            "outputVal": "",
+                            "parentName": "Applause",
+                            "remarks": "",
+                            "stepNo": 9,
+                            "testStepGroupId": "67763ce184ed7a3b64a67613"
+                        },
+                        {
+                            "_id": "67763ce184ed7a3b64a6761d",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67763ce184ed7a3b64a67610",
+                            "elementRepoId": "67763ce184ed7a3b64a6760a",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "click",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-02 07:14:41.367000",
+                            "name": "Go_to_Dashboard",
+                            "outputVal": "",
+                            "parentName": "Applause",
+                            "remarks": "",
+                            "stepNo": 10,
+                            "testStepGroupId": "67763ce184ed7a3b64a67613"
+                        },
+                        {
+                            "_id": "67763ce184ed7a3b64a6761e",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67763ce184ed7a3b64a67611",
+                            "elementRepoId": "67763ce184ed7a3b64a6760a",
+                            "inputVal": [
+                                "|example|"
+                            ],
+                            "keywordVal": "setText",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-02 07:14:41.367000",
+                            "name": "example",
+                            "outputVal": "",
+                            "parentName": "Applause",
+                            "remarks": "",
+                            "stepNo": 11,
+                            "testStepGroupId": "67763ce184ed7a3b64a67613"
+                        },
+                        {
+                            "_id": "67763ce184ed7a3b64a6761f",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67763ce184ed7a3b64a67612",
+                            "elementRepoId": "67763ce184ed7a3b64a6760a",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "click",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-02 07:14:41.367000",
+                            "name": "Redeem",
+                            "outputVal": "",
+                            "parentName": "Applause",
+                            "remarks": "",
+                            "stepNo": 12,
+                            "testStepGroupId": "67763ce184ed7a3b64a67613"
+                        },
+                        {
+                            "_id": "67763ce184ed7a3b64a67620",
+                            "addDetails": "",
+                            "appType": "Generic",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "endLoop",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-02 07:14:41.367000",
+                            "name": "@Generic",
+                            "outputVal": "",
+                            "parentName": "Applause",
+                            "remarks": "",
+                            "stepNo": 13,
+                            "testStepGroupId": "67763ce184ed7a3b64a67613"
+                        }
+                    ]
+                }
+            ],
+            "testSteps": "True"
+        },
+        {
+            "_id": "677b7bcc212da0d1cfea8d0a",
+            "appType": "Web",
+            "assignedTo": "harshini",
+            "createdBy": "677220c184ed7a3b64a6704f",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-01-06 06:44:28.303000",
+            "description": "",
+            "displayOn": "2025-01-06 06:44:28.303000",
+            "modifiedBy": "677220c184ed7a3b64a6704f",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedOn": "2025-01-06 06:50:43.443000",
+            "name": "applause",
+            "projectId": "6776358084ed7a3b64a675e5",
+            "testCaseFolderId": "67763ce084ed7a3b64a67607",
+            "testStepGroups": [
+                {
+                    "_id": "677b7be2212da0d1cfea8d0b",
+                    "appType": "Web",
+                    "assignedTo": "harshini",
+                    "createdBy": "677220c184ed7a3b64a6704f",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-01-06 06:50:43.442000",
+                    "displayOn": "2025-01-06 06:50:43.442000",
+                    "groupIndex": 1,
+                    "modifiedBy": "677220c184ed7a3b64a6704f",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-01-06 06:50:43.442000",
+                    "name": "Products",
+                    "projectId": "6776358084ed7a3b64a675e5",
+                    "testCaseId": "677b7bcc212da0d1cfea8d0a",
+                    "testSteps": [
+                        {
+                            "_id": "677b7be2212da0d1cfea8d0c",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "677b7bbd212da0d1cfea8d09",
+                            "elementRepoId": "677635ce84ed7a3b64a675ea",
+                            "inputVal": [
+                                "Tech & Gadget"
+                            ],
+                            "keywordVal": "cmbSelectValueByText",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-06 06:50:43.444000",
+                            "name": "Home & LifestyleClothing & AccessoriesBeauty & MakeupFitness & OutdoorTravelTech & GadgetEntertainment & Subscriptions",
+                            "outputVal": "",
+                            "parentName": "Products",
+                            "remarks": "",
+                            "stepNo": 1,
+                            "testStepGroupId": "677b7be2212da0d1cfea8d0b"
+                        },
+                        {
+                            "_id": "677b7cc6212da0d1cfea8d11",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "677b7ca9212da0d1cfea8d0e",
+                            "elementRepoId": "677635ce84ed7a3b64a675ea",
+                            "inputVal": [
+                                "Wiki Cable Organizer Gadget"
+                            ],
+                            "keywordVal": "cmbSelectValueByText",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-06 06:50:43.444000",
+                            "name": "Fossil Analog WatchClothing & Accessories29991Add to CartMOKOBARA The Skye Tote BagClothing & Accessories7500Add to CartMOKOBARA The Transit BriefcaseClothing & Accessories9000Add to Cart",
+                            "outputVal": "",
+                            "parentName": "Products",
+                            "remarks": "",
+                            "stepNo": 2,
+                            "testStepGroupId": "677b7be2212da0d1cfea8d0b"
+                        }
+                    ]
+                }
+            ],
+            "testSteps": "True"
+        },
+        {
+            "_id": "677f6c1f212da0d1cfec2808",
+            "appType": "Web",
+            "assignedTo": "harshini",
+            "createdBy": "677220c184ed7a3b64a6704f",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-01-09 06:26:39.424000",
+            "description": "",
+            "displayOn": "2025-01-09 06:26:39.424000",
+            "modifiedBy": "677220c184ed7a3b64a6704f",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedOn": "2025-01-09 06:29:59.970000",
+            "name": "Email",
+            "projectId": "6776358084ed7a3b64a675e5",
+            "testCaseFolderId": "67763ce084ed7a3b64a67607",
+            "testStepGroups": [
+                {
+                    "_id": "677f6c75212da0d1cfec2822",
+                    "appType": "Web",
+                    "assignedTo": "harshini",
+                    "createdBy": "677220c184ed7a3b64a6704f",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-01-09 06:29:59.969000",
+                    "displayOn": "2025-01-09 06:29:59.969000",
+                    "groupIndex": 1,
+                    "modifiedBy": "677220c184ed7a3b64a6704f",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-01-09 06:29:59.969000",
+                    "name": "copy",
+                    "projectId": "6776358084ed7a3b64a675e5",
+                    "testCaseId": "677f6c1f212da0d1cfec2808",
+                    "testSteps": [
+                        {
+                            "_id": "677f6c75212da0d1cfec2823",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "openBrowser",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-09 06:29:59.971000",
+                            "name": "@Browser",
+                            "outputVal": "",
+                            "parentName": "copy",
+                            "remarks": "",
+                            "stepNo": 1,
+                            "testStepGroupId": "677f6c75212da0d1cfec2822"
+                        },
+                        {
+                            "_id": "677f6c75212da0d1cfec2824",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "https://www.guerrillamail.com/inbox?show_source=169377960"
+                            ],
+                            "keywordVal": "navigateToURL",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-09 06:29:59.971000",
+                            "name": "@Browser",
+                            "outputVal": "",
+                            "parentName": "copy",
+                            "remarks": "",
+                            "stepNo": 2,
+                            "testStepGroupId": "677f6c75212da0d1cfec2822"
+                        },
+                        {
+                            "_id": "677f6c75212da0d1cfec2825",
+                            "addDetails": "",
+                            "appType": "Generic",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "Ctrl+A"
+                            ],
+                            "keywordVal": "sendFunctionKeys",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-09 06:29:59.971000",
+                            "name": "@Generic",
+                            "outputVal": "",
+                            "parentName": "copy",
+                            "remarks": "",
+                            "stepNo": 3,
+                            "testStepGroupId": "677f6c75212da0d1cfec2822"
+                        },
+                        {
+                            "_id": "677f6ce7212da0d1cfec2828",
+                            "addDetails": "",
+                            "appType": "Generic",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "Ctrl+C"
+                            ],
+                            "keywordVal": "sendFunctionKeys",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-09 06:29:59.971000",
+                            "name": "@Generic",
+                            "outputVal": "",
+                            "parentName": "copy",
+                            "remarks": "",
+                            "stepNo": 4,
+                            "testStepGroupId": "677f6c75212da0d1cfec2822"
+                        },
+                        {
+                            "_id": "677f6ce7212da0d1cfec2829",
+                            "addDetails": "",
+                            "appType": "Generic",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "getFromClipBoard",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-09 06:29:59.971000",
+                            "name": "@Generic",
+                            "outputVal": "{Data}",
+                            "parentName": "copy",
+                            "remarks": "",
+                            "stepNo": 5,
+                            "testStepGroupId": "677f6c75212da0d1cfec2822"
+                        },
+                        {
+                            "_id": "677f6ce7212da0d1cfec282a",
+                            "addDetails": "",
+                            "appType": "Generic",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "{Data}"
+                            ],
+                            "keywordVal": "displayVariableValue",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-01-09 06:29:59.971000",
+                            "name": "@Generic",
+                            "outputVal": "",
+                            "parentName": "copy",
+                            "remarks": "",
+                            "stepNo": 6,
+                            "testStepGroupId": "677f6c75212da0d1cfec2822"
+                        }
+                    ]
+                }
+            ],
+            "testSteps": "True"
+        },
+        {
+            "_id": "6788f18dd3fdc42d082c61d1",
+            "appType": "Web",
+            "assignedTo": "enosh",
+            "createdBy": "6772281884ed7a3b64a67052",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-01-16 11:46:21.504000",
+            "description": "",
+            "displayOn": "2025-01-16 11:46:21.504000",
+            "modifiedBy": "6772281884ed7a3b64a67052",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedOn": "2025-01-16 11:46:21.504000",
+            "name": "New Testcase",
+            "projectId": "6776358084ed7a3b64a675e5",
+            "testCaseFolderId": "67763ce084ed7a3b64a67607",
+            "testStepGroups": [],
+            "testSteps": ""
+        },
+        {
+            "_id": "67974b56d3fdc42d082caf87",
+            "appType": "Web",
+            "assignedTo": "harshini",
+            "createdBy": "677220c184ed7a3b64a6704f",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-01-27 09:01:10.904000",
+            "description": "",
+            "displayOn": "2025-01-27 09:01:10.904000",
+            "modifiedBy": "677220c184ed7a3b64a6704f",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedOn": "2025-01-27 09:01:23.253000",
+            "name": "Desktop",
+            "projectId": "6776358084ed7a3b64a675e5",
+            "testCaseFolderId": "67763ce084ed7a3b64a67607",
+            "testStepGroups": [
+                {
+                    "_id": "67974b63d3fdc42d082caf88",
+                    "appType": "Desktop",
+                    "assignedTo": "harshini",
+                    "createdBy": "677220c184ed7a3b64a6704f",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-01-27 09:01:23.253000",
+                    "displayOn": "2025-01-27 09:01:23.253000",
+                    "groupIndex": 1,
+                    "modifiedBy": "677220c184ed7a3b64a6704f",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-01-27 09:01:23.253000",
+                    "name": "Test",
+                    "projectId": "6776358084ed7a3b64a675e5",
+                    "testCaseId": "67974b56d3fdc42d082caf87",
+                    "testSteps": []
+                }
+            ],
+            "testSteps": "True"
+        },
+        {
+            "_id": "67ac2e66f1a20ac861f0c7f0",
+            "appType": "Web",
+            "assignedTo": "harshini",
+            "createdBy": "677220c184ed7a3b64a6704f",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-02-12 05:15:18.864000",
+            "description": "",
+            "displayOn": "2025-02-12 05:15:18.865000",
+            "modifiedBy": "677220c184ed7a3b64a6704f",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedOn": "2025-02-12 05:17:00.798000",
+            "name": "Cetificate",
+            "projectId": "6776358084ed7a3b64a675e5",
+            "testCaseFolderId": "67763ce084ed7a3b64a67607",
+            "testStepGroups": [
+                {
+                    "_id": "67ac2eb5f1a20ac861f0c7f2",
+                    "appType": "Web",
+                    "assignedTo": "harshini",
+                    "createdBy": "677220c184ed7a3b64a6704f",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-02-12 05:17:00.797000",
+                    "displayOn": "2025-02-12 05:17:00.797000",
+                    "groupIndex": 1,
+                    "modifiedBy": "677220c184ed7a3b64a6704f",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-02-12 05:17:00.797000",
+                    "name": "Accept Certificate",
+                    "projectId": "6776358084ed7a3b64a675e5",
+                    "testCaseId": "67ac2e66f1a20ac861f0c7f0",
+                    "testSteps": [
+                        {
+                            "_id": "67ac2eb5f1a20ac861f0c7f3",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "openBrowser",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-02-12 05:17:00.799000",
+                            "name": "@Browser",
+                            "outputVal": "",
+                            "parentName": "Accept Certificate",
+                            "remarks": "",
+                            "stepNo": 1,
+                            "testStepGroupId": "67ac2eb5f1a20ac861f0c7f2"
+                        },
+                        {
+                            "_id": "67ac2eb5f1a20ac861f0c7f4",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                " https://avobank.jsp;Enter;3"
+                            ],
+                            "keywordVal": "navigateToURL",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-02-12 05:17:00.799000",
+                            "name": "@Browser",
+                            "outputVal": "",
+                            "parentName": "Accept Certificate",
+                            "remarks": "",
+                            "stepNo": 2,
+                            "testStepGroupId": "67ac2eb5f1a20ac861f0c7f2"
+                        }
+                    ]
+                }
+            ],
+            "testSteps": "True"
+        },
+        {
+            "_id": "67ad9b5ff1a20ac861f0e370",
+            "appType": "Web",
+            "assignedTo": "harshini",
+            "createdBy": "677220c184ed7a3b64a6704f",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-02-13 07:12:31.189000",
+            "description": "",
+            "displayOn": "2025-02-13 07:12:31.189000",
+            "modifiedBy": "677220c184ed7a3b64a6704f",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedOn": "2025-02-13 09:05:15.853000",
+            "name": "Browser",
+            "projectId": "6776358084ed7a3b64a675e5",
+            "testCaseFolderId": "67763ce084ed7a3b64a67607",
+            "testStepGroups": [
+                {
+                    "_id": "67adb26ef1a20ac861f0e73a",
+                    "appType": "Web",
+                    "assignedTo": "harshini",
+                    "createdBy": "677220c184ed7a3b64a6704f",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-02-13 09:05:15.852000",
+                    "displayOn": "2025-02-13 09:05:15.852000",
+                    "groupIndex": 1,
+                    "modifiedBy": "677220c184ed7a3b64a6704f",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-02-13 09:05:15.852000",
+                    "name": "browser'",
+                    "projectId": "6776358084ed7a3b64a675e5",
+                    "testCaseId": "67ad9b5ff1a20ac861f0e370",
+                    "testSteps": [
+                        {
+                            "_id": "67adb29af1a20ac861f0e73b",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "URL;https://file-examples.com/storage/fe21422a6d67aa28993b797/2017/10"
+                            ],
+                            "keywordVal": "switchToWindow",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-02-13 09:05:15.854000",
+                            "name": "@Browser",
+                            "outputVal": "",
+                            "parentName": "browser'",
+                            "remarks": "",
+                            "stepNo": 1,
+                            "testStepGroupId": "67adb26ef1a20ac861f0e73a"
+                        },
+                        {
+                            "_id": "67adb59cf1a20ac861f0e744",
+                            "addDetails": "",
+                            "appType": "Generic",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "Ctrl+S"
+                            ],
+                            "keywordVal": "sendFunctionKeys",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-02-13 09:05:15.854000",
+                            "name": "@Generic",
+                            "outputVal": "",
+                            "parentName": "browser'",
+                            "remarks": "",
+                            "stepNo": 2,
+                            "testStepGroupId": "67adb26ef1a20ac861f0e73a"
+                        },
+                        {
+                            "_id": "67adb5cbf1a20ac861f0e748",
+                            "addDetails": "",
+                            "appType": "Generic",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "Enter"
+                            ],
+                            "keywordVal": "sendFunctionKeys",
+                            "modifiedBy": "677220c184ed7a3b64a6704f",
+                            "modifiedOn": "2025-02-13 09:05:15.854000",
+                            "name": "@Generic",
+                            "outputVal": "",
+                            "parentName": "browser'",
+                            "remarks": "",
+                            "stepNo": 3,
+                            "testStepGroupId": "67adb26ef1a20ac861f0e73a"
+                        }
+                    ]
+                }
+            ],
+            "testSteps": "True"
+        }
+    ],
+    "testcase": "True",
+    "userName": "harshini"
+}
