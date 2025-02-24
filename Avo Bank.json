@@ -1,0 +1,433 @@
+{
+    "_id": "67bc33268c14ba3182d8d76c",
+    "childFolders": [],
+    "createdBy": "674ff85a1fb9217a86da7d7d",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2025-02-24 08:51:50.963000",
+    "displayOn": "2025-02-24 08:51:50.963000",
+    "isFolder": true,
+    "isTestCase": false,
+    "modifiedBy": "674ff85a1fb9217a86da7d7d",
+    "modifiedOn": "2025-02-24 08:52:02.599000",
+    "name": "Avo Bank",
+    "parent": null,
+    "path": "Avo Bank",
+    "projectId": "67bc32a78c14ba3182d8d769",
+    "testCases": [
+        {
+            "_id": "67bc33328c14ba3182d8d76d",
+            "appType": "Web",
+            "assignedTo": "harshini",
+            "createdBy": "674ff85a1fb9217a86da7d7d",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-02-24 08:52:02.599000",
+            "description": "",
+            "displayOn": "2025-02-24 08:52:02.599000",
+            "modifiedBy": "674ff85a1fb9217a86da7d7d",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedOn": "2025-02-24 08:52:10.599000",
+            "name": "Fund Transfer",
+            "projectId": "67bc32a78c14ba3182d8d769",
+            "testCaseFolderId": "67bc33268c14ba3182d8d76c",
+            "testStepGroups": [
+                {
+                    "_id": "67bc333a8c14ba3182d8d782",
+                    "appType": "Web",
+                    "assignedTo": "",
+                    "createdBy": "674ff85a1fb9217a86da7d7d",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-02-24 08:52:10.585000",
+                    "displayOn": "2025-02-24 08:52:10.585000",
+                    "groupIndex": 1,
+                    "modifiedBy": "674ff85a1fb9217a86da7d7d",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-02-24 08:52:10.585000",
+                    "name": "Home",
+                    "projectId": "67bc32a78c14ba3182d8d769",
+                    "testCaseId": "67bc33328c14ba3182d8d76d",
+                    "testSteps": [
+                        {
+                            "_id": "67bc333a8c14ba3182d8d783",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "openBrowser",
+                            "modifiedBy": "674ff85a1fb9217a86da7d7d",
+                            "modifiedOn": "2025-02-24 08:52:10.587000",
+                            "name": "@Browser",
+                            "outputVal": "",
+                            "parentName": "Home",
+                            "remarks": "",
+                            "stepNo": 1,
+                            "testStepGroupId": "67bc333a8c14ba3182d8d782"
+                        },
+                        {
+                            "_id": "67bc333a8c14ba3182d8d784",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "https://avotestlab.avoassure.ai/"
+                            ],
+                            "keywordVal": "navigateToURL",
+                            "modifiedBy": "674ff85a1fb9217a86da7d7d",
+                            "modifiedOn": "2025-02-24 08:52:10.587000",
+                            "name": "@Browser",
+                            "outputVal": "",
+                            "parentName": "Home",
+                            "remarks": "",
+                            "stepNo": 2,
+                            "testStepGroupId": "67bc333a8c14ba3182d8d782"
+                        },
+                        {
+                            "_id": "67bc333a8c14ba3182d8d785",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67bc33398c14ba3182d8d770",
+                            "elementRepoId": "67bc33398c14ba3182d8d76f",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "click",
+                            "modifiedBy": "674ff85a1fb9217a86da7d7d",
+                            "modifiedOn": "2025-02-24 08:52:10.587000",
+                            "name": "Log In",
+                            "outputVal": "",
+                            "parentName": "Home",
+                            "remarks": "",
+                            "stepNo": 3,
+                            "testStepGroupId": "67bc333a8c14ba3182d8d782"
+                        }
+                    ]
+                },
+                {
+                    "_id": "67bc333a8c14ba3182d8d786",
+                    "appType": "Web",
+                    "assignedTo": "",
+                    "createdBy": "674ff85a1fb9217a86da7d7d",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-02-24 08:52:10.590000",
+                    "displayOn": "2025-02-24 08:52:10.590000",
+                    "groupIndex": 2,
+                    "modifiedBy": "674ff85a1fb9217a86da7d7d",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-02-24 08:52:10.590000",
+                    "name": "Login",
+                    "projectId": "67bc32a78c14ba3182d8d769",
+                    "testCaseId": "67bc33328c14ba3182d8d76d",
+                    "testSteps": [
+                        {
+                            "_id": "67bc333a8c14ba3182d8d787",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67bc33398c14ba3182d8d772",
+                            "elementRepoId": "67bc33398c14ba3182d8d771",
+                            "inputVal": [
+                                "harshini"
+                            ],
+                            "keywordVal": "setText",
+                            "modifiedBy": "674ff85a1fb9217a86da7d7d",
+                            "modifiedOn": "2025-02-24 08:52:10.592000",
+                            "name": "Username",
+                            "outputVal": "",
+                            "parentName": "Login",
+                            "remarks": "",
+                            "stepNo": 1,
+                            "testStepGroupId": "67bc333a8c14ba3182d8d786"
+                        },
+                        {
+                            "_id": "67bc333a8c14ba3182d8d788",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67bc33398c14ba3182d8d773",
+                            "elementRepoId": "67bc33398c14ba3182d8d771",
+                            "inputVal": [
+                                "Harshini@9980"
+                            ],
+                            "keywordVal": "setText",
+                            "modifiedBy": "674ff85a1fb9217a86da7d7d",
+                            "modifiedOn": "2025-02-24 08:52:10.592000",
+                            "name": "Password",
+                            "outputVal": "",
+                            "parentName": "Login",
+                            "remarks": "",
+                            "stepNo": 2,
+                            "testStepGroupId": "67bc333a8c14ba3182d8d786"
+                        },
+                        {
+                            "_id": "67bc333a8c14ba3182d8d789",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67bc33398c14ba3182d8d774",
+                            "elementRepoId": "67bc33398c14ba3182d8d771",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "click",
+                            "modifiedBy": "674ff85a1fb9217a86da7d7d",
+                            "modifiedOn": "2025-02-24 08:52:10.592000",
+                            "name": "submit",
+                            "outputVal": "",
+                            "parentName": "Login",
+                            "remarks": "",
+                            "stepNo": 3,
+                            "testStepGroupId": "67bc333a8c14ba3182d8d786"
+                        }
+                    ]
+                },
+                {
+                    "_id": "67bc333a8c14ba3182d8d78a",
+                    "appType": "Web",
+                    "assignedTo": "",
+                    "createdBy": "674ff85a1fb9217a86da7d7d",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-02-24 08:52:10.593000",
+                    "displayOn": "2025-02-24 08:52:10.593000",
+                    "groupIndex": 3,
+                    "modifiedBy": "674ff85a1fb9217a86da7d7d",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-02-24 08:52:10.593000",
+                    "name": "Account Overview",
+                    "projectId": "67bc32a78c14ba3182d8d769",
+                    "testCaseId": "67bc33328c14ba3182d8d76d",
+                    "testSteps": [
+                        {
+                            "_id": "67bc333a8c14ba3182d8d78b",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67bc333a8c14ba3182d8d776",
+                            "elementRepoId": "67bc33398c14ba3182d8d775",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "click",
+                            "modifiedBy": "674ff85a1fb9217a86da7d7d",
+                            "modifiedOn": "2025-02-24 08:52:10.595000",
+                            "name": "Fund Transfer",
+                            "outputVal": "",
+                            "parentName": "Account Overview",
+                            "remarks": "",
+                            "stepNo": 1,
+                            "testStepGroupId": "67bc333a8c14ba3182d8d78a"
+                        }
+                    ]
+                },
+                {
+                    "_id": "67bc333a8c14ba3182d8d78c",
+                    "appType": "Web",
+                    "assignedTo": "",
+                    "createdBy": "674ff85a1fb9217a86da7d7d",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-02-24 08:52:10.596000",
+                    "displayOn": "2025-02-24 08:52:10.596000",
+                    "groupIndex": 4,
+                    "modifiedBy": "674ff85a1fb9217a86da7d7d",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-02-24 08:52:10.596000",
+                    "name": "Fund Transfer",
+                    "projectId": "67bc32a78c14ba3182d8d769",
+                    "testCaseId": "67bc33328c14ba3182d8d76d",
+                    "testSteps": [
+                        {
+                            "_id": "67bc333a8c14ba3182d8d78d",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67bc333a8c14ba3182d8d778",
+                            "elementRepoId": "67bc333a8c14ba3182d8d777",
+                            "inputVal": [
+                                "1"
+                            ],
+                            "keywordVal": "selectValueByIndex",
+                            "modifiedBy": "674ff85a1fb9217a86da7d7d",
+                            "modifiedOn": "2025-02-24 08:52:10.597000",
+                            "name": "From Account",
+                            "outputVal": "",
+                            "parentName": "Fund Transfer",
+                            "remarks": "",
+                            "stepNo": 1,
+                            "testStepGroupId": "67bc333a8c14ba3182d8d78c"
+                        },
+                        {
+                            "_id": "67bc333a8c14ba3182d8d78e",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67bc333a8c14ba3182d8d779",
+                            "elementRepoId": "67bc333a8c14ba3182d8d777",
+                            "inputVal": [
+                                "2"
+                            ],
+                            "keywordVal": "selectValueByIndex",
+                            "modifiedBy": "674ff85a1fb9217a86da7d7d",
+                            "modifiedOn": "2025-02-24 08:52:10.597000",
+                            "name": "To Account",
+                            "outputVal": "",
+                            "parentName": "Fund Transfer",
+                            "remarks": "",
+                            "stepNo": 2,
+                            "testStepGroupId": "67bc333a8c14ba3182d8d78c"
+                        },
+                        {
+                            "_id": "67bc333a8c14ba3182d8d78f",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67bc333a8c14ba3182d8d77a",
+                            "elementRepoId": "67bc333a8c14ba3182d8d777",
+                            "inputVal": [
+                                "Harshini"
+                            ],
+                            "keywordVal": "setText",
+                            "modifiedBy": "674ff85a1fb9217a86da7d7d",
+                            "modifiedOn": "2025-02-24 08:52:10.597000",
+                            "name": "Payee Name",
+                            "outputVal": "",
+                            "parentName": "Fund Transfer",
+                            "remarks": "",
+                            "stepNo": 3,
+                            "testStepGroupId": "67bc333a8c14ba3182d8d78c"
+                        },
+                        {
+                            "_id": "67bc333a8c14ba3182d8d790",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67bc333a8c14ba3182d8d77b",
+                            "elementRepoId": "67bc333a8c14ba3182d8d777",
+                            "inputVal": [
+                                "7"
+                            ],
+                            "keywordVal": "setText",
+                            "modifiedBy": "674ff85a1fb9217a86da7d7d",
+                            "modifiedOn": "2025-02-24 08:52:10.597000",
+                            "name": "Transfer Amount ($)",
+                            "outputVal": "",
+                            "parentName": "Fund Transfer",
+                            "remarks": "",
+                            "stepNo": 4,
+                            "testStepGroupId": "67bc333a8c14ba3182d8d78c"
+                        },
+                        {
+                            "_id": "67bc333a8c14ba3182d8d791",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67bc333a8c14ba3182d8d77c",
+                            "elementRepoId": "67bc333a8c14ba3182d8d777",
+                            "inputVal": [
+                                "test"
+                            ],
+                            "keywordVal": "setText",
+                            "modifiedBy": "674ff85a1fb9217a86da7d7d",
+                            "modifiedOn": "2025-02-24 08:52:10.597000",
+                            "name": "Remarks",
+                            "outputVal": "",
+                            "parentName": "Fund Transfer",
+                            "remarks": "",
+                            "stepNo": 5,
+                            "testStepGroupId": "67bc333a8c14ba3182d8d78c"
+                        },
+                        {
+                            "_id": "67bc333a8c14ba3182d8d792",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67bc333a8c14ba3182d8d77d",
+                            "elementRepoId": "67bc333a8c14ba3182d8d777",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "click",
+                            "modifiedBy": "674ff85a1fb9217a86da7d7d",
+                            "modifiedOn": "2025-02-24 08:52:10.597000",
+                            "name": "Continue",
+                            "outputVal": "",
+                            "parentName": "Fund Transfer",
+                            "remarks": "",
+                            "stepNo": 6,
+                            "testStepGroupId": "67bc333a8c14ba3182d8d78c"
+                        },
+                        {
+                            "_id": "67bc333a8c14ba3182d8d793",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67bc333a8c14ba3182d8d77e",
+                            "elementRepoId": "67bc333a8c14ba3182d8d777",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "click",
+                            "modifiedBy": "674ff85a1fb9217a86da7d7d",
+                            "modifiedOn": "2025-02-24 08:52:10.597000",
+                            "name": "Continue_1",
+                            "outputVal": "",
+                            "parentName": "Fund Transfer",
+                            "remarks": "",
+                            "stepNo": 7,
+                            "testStepGroupId": "67bc333a8c14ba3182d8d78c"
+                        }
+                    ]
+                },
+                {
+                    "_id": "67bc333a8c14ba3182d8d794",
+                    "appType": "Web",
+                    "assignedTo": "",
+                    "createdBy": "674ff85a1fb9217a86da7d7d",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-02-24 08:52:10.599000",
+                    "displayOn": "2025-02-24 08:52:10.599000",
+                    "groupIndex": 5,
+                    "modifiedBy": "674ff85a1fb9217a86da7d7d",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-02-24 08:52:10.599000",
+                    "name": "Fund Transfer_i_1",
+                    "projectId": "67bc32a78c14ba3182d8d769",
+                    "testCaseId": "67bc33328c14ba3182d8d76d",
+                    "testSteps": [
+                        {
+                            "_id": "67bc333a8c14ba3182d8d795",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67bc333a8c14ba3182d8d780",
+                            "elementRepoId": "67bc333a8c14ba3182d8d77f",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "verifyDisabled",
+                            "modifiedBy": "674ff85a1fb9217a86da7d7d",
+                            "modifiedOn": "2025-02-24 08:52:10.601000",
+                            "name": "Sign Out",
+                            "outputVal": "{data}",
+                            "parentName": "Fund Transfer_i_1",
+                            "remarks": "",
+                            "stepNo": 1,
+                            "testStepGroupId": "67bc333a8c14ba3182d8d794"
+                        },
+                        {
+                            "_id": "67bc333a8c14ba3182d8d796",
+                            "addDetails": "",
+                            "appType": "Web",
+                            "elementId": "67bc333a8c14ba3182d8d781",
+                            "elementRepoId": "67bc333a8c14ba3182d8d77f",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "click",
+                            "modifiedBy": "674ff85a1fb9217a86da7d7d",
+                            "modifiedOn": "2025-02-24 08:52:10.601000",
+                            "name": "Yes",
+                            "outputVal": "",
+                            "parentName": "Fund Transfer_i_1",
+                            "remarks": "",
+                            "stepNo": 2,
+                            "testStepGroupId": "67bc333a8c14ba3182d8d794"
+                        }
+                    ]
+                }
+            ],
+            "testSteps": "True"
+        }
+    ],
+    "testcase": "True",
+    "userName": "harshini"
+}
