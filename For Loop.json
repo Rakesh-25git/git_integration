@@ -1,0 +1,360 @@
+{
+    "_id": "67aee5820458120fe0c27efb",
+    "childFolders": [],
+    "createdBy": "67613aa4fc819d10f9c88c3e",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2025-02-14 06:41:06.437000",
+    "displayOn": "2025-02-14 06:41:06.437000",
+    "isFolder": true,
+    "isTestCase": false,
+    "modifiedBy": "67613b15fc819d10f9c88c41",
+    "modifiedOn": "2025-02-20 09:10:46.981000",
+    "name": "For Loop",
+    "parent": null,
+    "path": "For Loop",
+    "projectId": "67613ffafc819d10f9c88c47",
+    "testCases": [
+        {
+            "_id": "67b2ca180458120fe0c27f01",
+            "appType": "Web",
+            "assignedTo": "harshini",
+            "createdBy": "67613aa4fc819d10f9c88c3e",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-02-17 05:33:12.445000",
+            "description": "",
+            "displayOn": "2025-02-17 05:33:12.445000",
+            "modifiedBy": "67613aa4fc819d10f9c88c3e",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedOn": "2025-02-17 10:54:14.931000",
+            "name": "Sample",
+            "projectId": "67613ffafc819d10f9c88c47",
+            "testCaseFolderId": "67aee5820458120fe0c27efb",
+            "testStepGroups": [
+                {
+                    "_id": "67b2ca340458120fe0c27f02",
+                    "appType": "Web",
+                    "assignedTo": "suman",
+                    "createdBy": "67613aa4fc819d10f9c88c3e",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-02-17 10:54:14.930000",
+                    "displayOn": "2025-02-17 10:54:14.930000",
+                    "groupIndex": 1,
+                    "modifiedBy": "67613aa4fc819d10f9c88c3e",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-02-17 10:54:14.930000",
+                    "name": "Demo",
+                    "projectId": "67613ffafc819d10f9c88c47",
+                    "testCaseId": "67b2ca180458120fe0c27f01",
+                    "testSteps": [
+                        {
+                            "_id": "67b2cc2e0458120fe0c27f03",
+                            "addDetails": "",
+                            "appType": "Generic",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "{i};1"
+                            ],
+                            "keywordVal": "createDynVariable",
+                            "modifiedBy": "67613aa4fc819d10f9c88c3e",
+                            "modifiedOn": "2025-02-17 10:54:14.933000",
+                            "name": "@Generic",
+                            "outputVal": "",
+                            "parentName": "Demo",
+                            "remarks": "",
+                            "stepNo": 1,
+                            "testStepGroupId": "67b2ca340458120fe0c27f02"
+                        },
+                        {
+                            "_id": "67b2cc4f0458120fe0c27f04",
+                            "addDetails": "",
+                            "appType": "Generic",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "{i}"
+                            ],
+                            "keywordVal": "for",
+                            "modifiedBy": "67613aa4fc819d10f9c88c3e",
+                            "modifiedOn": "2025-02-17 10:54:14.933000",
+                            "name": "@Generic",
+                            "outputVal": "",
+                            "parentName": "Demo",
+                            "remarks": "",
+                            "stepNo": 3,
+                            "testStepGroupId": "67b2ca340458120fe0c27f02"
+                        },
+                        {
+                            "_id": "67b314080458120fe0c27ff5",
+                            "addDetails": "",
+                            "appType": "Generic",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "{status};True"
+                            ],
+                            "keywordVal": "createDynVariable",
+                            "modifiedBy": "67613aa4fc819d10f9c88c3e",
+                            "modifiedOn": "2025-02-17 10:54:14.933000",
+                            "name": "@Generic",
+                            "outputVal": "",
+                            "parentName": "Demo",
+                            "remarks": "",
+                            "stepNo": 2,
+                            "testStepGroupId": "67b2ca340458120fe0c27f02"
+                        },
+                        {
+                            "_id": "67b314080458120fe0c27ff6",
+                            "addDetails": "",
+                            "appType": "Generic",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "getCurrentDate",
+                            "modifiedBy": "67613aa4fc819d10f9c88c3e",
+                            "modifiedOn": "2025-02-17 10:54:14.933000",
+                            "name": "@Generic",
+                            "outputVal": "",
+                            "parentName": "Demo",
+                            "remarks": "",
+                            "stepNo": 4,
+                            "testStepGroupId": "67b2ca340458120fe0c27f02"
+                        },
+                        {
+                            "_id": "67b314080458120fe0c27ff7",
+                            "addDetails": "",
+                            "appType": "Generic",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "getCurrentDay",
+                            "modifiedBy": "67613aa4fc819d10f9c88c3e",
+                            "modifiedOn": "2025-02-17 10:54:14.933000",
+                            "name": "@Generic",
+                            "outputVal": "",
+                            "parentName": "Demo",
+                            "remarks": "",
+                            "stepNo": 5,
+                            "testStepGroupId": "67b2ca340458120fe0c27f02"
+                        },
+                        {
+                            "_id": "67b314080458120fe0c27ff8",
+                            "addDetails": "",
+                            "appType": "Generic",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "({status};==;True)"
+                            ],
+                            "keywordVal": "if",
+                            "modifiedBy": "67613aa4fc819d10f9c88c3e",
+                            "modifiedOn": "2025-02-17 10:54:14.933000",
+                            "name": "@Generic",
+                            "outputVal": "",
+                            "parentName": "Demo",
+                            "remarks": "",
+                            "stepNo": 6,
+                            "testStepGroupId": "67b2ca340458120fe0c27f02"
+                        },
+                        {
+                            "_id": "67b314080458120fe0c27ff9",
+                            "addDetails": "",
+                            "appType": "Generic",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "getCurrentDayDateAndTime",
+                            "modifiedBy": "67613aa4fc819d10f9c88c3e",
+                            "modifiedOn": "2025-02-17 10:54:14.933000",
+                            "name": "@Generic",
+                            "outputVal": "",
+                            "parentName": "Demo",
+                            "remarks": "",
+                            "stepNo": 7,
+                            "testStepGroupId": "67b2ca340458120fe0c27f02"
+                        },
+                        {
+                            "_id": "67b314080458120fe0c27ffa",
+                            "addDetails": "",
+                            "appType": "Generic",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "else",
+                            "modifiedBy": "67613aa4fc819d10f9c88c3e",
+                            "modifiedOn": "2025-02-17 10:54:14.933000",
+                            "name": "@Generic",
+                            "outputVal": "",
+                            "parentName": "Demo",
+                            "remarks": "",
+                            "stepNo": 8,
+                            "testStepGroupId": "67b2ca340458120fe0c27f02"
+                        },
+                        {
+                            "_id": "67b314080458120fe0c27ffb",
+                            "addDetails": "",
+                            "appType": "Generic",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "{i}+1"
+                            ],
+                            "keywordVal": "evaluate",
+                            "modifiedBy": "67613aa4fc819d10f9c88c3e",
+                            "modifiedOn": "2025-02-17 10:54:14.933000",
+                            "name": "@Generic",
+                            "outputVal": "{i}",
+                            "parentName": "Demo",
+                            "remarks": "",
+                            "stepNo": 10,
+                            "testStepGroupId": "67b2ca340458120fe0c27f02"
+                        },
+                        {
+                            "_id": "67b314080458120fe0c27ffc",
+                            "addDetails": "",
+                            "appType": "Generic",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "endIf",
+                            "modifiedBy": "67613aa4fc819d10f9c88c3e",
+                            "modifiedOn": "2025-02-17 10:54:14.933000",
+                            "name": "@Generic",
+                            "outputVal": "",
+                            "parentName": "Demo",
+                            "remarks": "",
+                            "stepNo": 11,
+                            "testStepGroupId": "67b2ca340458120fe0c27f02"
+                        },
+                        {
+                            "_id": "67b314450458120fe0c27ffd",
+                            "addDetails": "",
+                            "appType": "Generic",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "endFor",
+                            "modifiedBy": "67613aa4fc819d10f9c88c3e",
+                            "modifiedOn": "2025-02-17 10:54:14.933000",
+                            "name": "@Generic",
+                            "outputVal": "",
+                            "parentName": "Demo",
+                            "remarks": "",
+                            "stepNo": 12,
+                            "testStepGroupId": "67b2ca340458120fe0c27f02"
+                        },
+                        {
+                            "_id": "67b315560458120fe0c27ffe",
+                            "addDetails": "",
+                            "appType": "Generic",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "getCurrentTime",
+                            "modifiedBy": "67613aa4fc819d10f9c88c3e",
+                            "modifiedOn": "2025-02-17 10:54:14.933000",
+                            "name": "@Generic",
+                            "outputVal": "",
+                            "parentName": "Demo",
+                            "remarks": "",
+                            "stepNo": 9,
+                            "testStepGroupId": "67b2ca340458120fe0c27f02"
+                        }
+                    ]
+                }
+            ],
+            "testSteps": "True"
+        },
+        {
+            "_id": "67b6f1968c14ba3182d89f78",
+            "appType": "Web",
+            "assignedTo": "harshini",
+            "createdBy": "67613b15fc819d10f9c88c41",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-02-20 09:10:46.981000",
+            "description": "",
+            "displayOn": "2025-02-20 09:10:46.981000",
+            "modifiedBy": "67613b15fc819d10f9c88c41",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedOn": "2025-02-20 09:11:37.218000",
+            "name": "DB",
+            "projectId": "67613ffafc819d10f9c88c47",
+            "testCaseFolderId": "67aee5820458120fe0c27efb",
+            "testStepGroups": [
+                {
+                    "_id": "67b6f1ba8c14ba3182d89f79",
+                    "appType": "Web",
+                    "assignedTo": "sanjeev",
+                    "createdBy": "67613b15fc819d10f9c88c41",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-02-20 09:11:37.216000",
+                    "displayOn": "2025-02-20 09:11:37.216000",
+                    "groupIndex": 1,
+                    "modifiedBy": "67613b15fc819d10f9c88c41",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-02-20 09:11:37.216000",
+                    "name": "Database",
+                    "projectId": "67613ffafc819d10f9c88c47",
+                    "testCaseId": "67b6f1968c14ba3182d89f78",
+                    "testSteps": [
+                        {
+                            "_id": "67b6f1ba8c14ba3182d89f7a",
+                            "addDetails": "",
+                            "appType": "Generic",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "SLKBGEN34WZLXEN;1433;Avo Pilot;AvoPilot$987654321;Pilot;Select * from [Pilot].[dbo].[Employees];4"
+                            ],
+                            "keywordVal": "getData",
+                            "modifiedBy": "67613b15fc819d10f9c88c41",
+                            "modifiedOn": "2025-02-20 09:11:37.219000",
+                            "name": "@Generic",
+                            "outputVal": "{op}",
+                            "parentName": "Database",
+                            "remarks": "",
+                            "stepNo": 1,
+                            "testStepGroupId": "67b6f1ba8c14ba3182d89f79"
+                        },
+                        {
+                            "_id": "67b6f1c98c14ba3182d89f7c",
+                            "addDetails": "",
+                            "appType": "Generic",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "{op[3][4]}"
+                            ],
+                            "keywordVal": "displayVariableValue",
+                            "modifiedBy": "67613b15fc819d10f9c88c41",
+                            "modifiedOn": "2025-02-20 09:11:37.219000",
+                            "name": "@Generic",
+                            "outputVal": "",
+                            "parentName": "Database",
+                            "remarks": "",
+                            "stepNo": 2,
+                            "testStepGroupId": "67b6f1ba8c14ba3182d89f79"
+                        }
+                    ]
+                }
+            ],
+            "testSteps": "True"
+        }
+    ],
+    "testcase": "True",
+    "userName": "suman"
+}
