@@ -1,0 +1,987 @@
+{
+    "_id": "67766691db9d961000bff2e3",
+    "childFolders": [],
+    "createdBy": "670ca1c77cf6d4f18b1792c2",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "createdOn": "2025-01-02 10:12:33.234000",
+    "displayOn": "2025-01-02 10:12:33.234000",
+    "isFolder": true,
+    "isTestCase": false,
+    "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+    "modifiedOn": "2025-01-02 10:12:47.492000",
+    "name": "imported test case",
+    "parent": null,
+    "path": "imported test case",
+    "projectId": "6774e7b6ca9d900eea441d7b",
+    "testCases": [
+        {
+            "_id": "6776669fdb9d961000bff2e9",
+            "appType": "Web",
+            "assignedTo": "keerthana",
+            "createdBy": "670ca1c77cf6d4f18b1792c2",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-01-02 10:12:47.492000",
+            "description": "",
+            "displayOn": "2025-01-02 10:12:47.492000",
+            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedOn": "2025-01-15 04:30:42.268000",
+            "name": "imported",
+            "projectId": "6774e7b6ca9d900eea441d7b",
+            "testCaseFolderId": "67766691db9d961000bff2e3",
+            "testStepGroups": [
+                {
+                    "_id": "67766712db9d961000bff375",
+                    "appType": "Webservice",
+                    "assignedTo": "keerthana",
+                    "createdBy": "670ca1c77cf6d4f18b1792c2",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-01-15 04:30:42.260000",
+                    "displayOn": "2025-01-15 04:30:42.260000",
+                    "groupIndex": 1,
+                    "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-01-15 04:30:42.260000",
+                    "name": "test",
+                    "projectId": "6774e7b6ca9d900eea441d7b",
+                    "testCaseId": "6776669fdb9d961000bff2e9",
+                    "testSteps": [
+                        {
+                            "_id": "67766712db9d961000bff376",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "",
+                            "elementRepoId": "6774ebbeca9d900eea442075",
+                            "inputVal": [
+                                "https://petstore.swagger.io/v2/user/createWithArray"
+                            ],
+                            "keywordVal": "setEndPointURL",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.262000",
+                            "name": "WebService List",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 1,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "67766712db9d961000bff377",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "",
+                            "elementRepoId": "6774ebbeca9d900eea442075",
+                            "inputVal": [
+                                "POST"
+                            ],
+                            "keywordVal": "setMethods",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.262000",
+                            "name": "WebService List",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 2,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "67766712db9d961000bff378",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "",
+                            "elementRepoId": "6774ebbeca9d900eea442075",
+                            "inputVal": [
+                                "Content-Type:application/json##"
+                            ],
+                            "keywordVal": "setHeader",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.262000",
+                            "name": "WebService List",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 3,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "67766712db9d961000bff379",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "6774ebbeca9d900eea442076",
+                            "elementRepoId": "6774ebbeca9d900eea442075",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.262000",
+                            "name": "0",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 4,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "67766712db9d961000bff37a",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "6774ebbeca9d900eea442077",
+                            "elementRepoId": "6774ebbeca9d900eea442075",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.262000",
+                            "name": "0/id",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 5,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "67766712db9d961000bff37b",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "6774ebbeca9d900eea442078",
+                            "elementRepoId": "6774ebbeca9d900eea442075",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.262000",
+                            "name": "0/username",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 6,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "67766712db9d961000bff37c",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "6774ebbeca9d900eea442079",
+                            "elementRepoId": "6774ebbeca9d900eea442075",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.262000",
+                            "name": "0/firstName",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 7,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "67766712db9d961000bff37d",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "6774ebbeca9d900eea44207a",
+                            "elementRepoId": "6774ebbeca9d900eea442075",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.262000",
+                            "name": "0/lastName",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 8,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "67766712db9d961000bff37e",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "6774ebbeca9d900eea44207b",
+                            "elementRepoId": "6774ebbeca9d900eea442075",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.262000",
+                            "name": "0/email",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 9,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "67766712db9d961000bff37f",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "6774ebbeca9d900eea44207c",
+                            "elementRepoId": "6774ebbeca9d900eea442075",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.262000",
+                            "name": "0/password",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 10,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "67766712db9d961000bff380",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "6774ebbeca9d900eea44207d",
+                            "elementRepoId": "6774ebbeca9d900eea442075",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.262000",
+                            "name": "0/phone",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 11,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "67766712db9d961000bff381",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "6774ebbeca9d900eea44207e",
+                            "elementRepoId": "6774ebbeca9d900eea442075",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.262000",
+                            "name": "0/userStatus",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 12,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "67766712db9d961000bff382",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "",
+                            "elementRepoId": "6774ebbeca9d900eea442075",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "executeRequest",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.263000",
+                            "name": "WebService List",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 35,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "678739f25b8656344efb9477",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "",
+                            "elementRepoId": "678738ac5b8656344efb944f",
+                            "inputVal": [
+                                "https://www.w3schools.com/xml/tempconvert.asmx?op=FahrenheitToCelsius"
+                            ],
+                            "keywordVal": "setEndPointURL",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.263000",
+                            "name": "WebService List",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 13,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "678739f25b8656344efb9478",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "",
+                            "elementRepoId": "678738ac5b8656344efb944f",
+                            "inputVal": [
+                                "POST"
+                            ],
+                            "keywordVal": "setMethods",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.263000",
+                            "name": "WebService List",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 14,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "678739f25b8656344efb9479",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "",
+                            "elementRepoId": "678738ac5b8656344efb944f",
+                            "inputVal": [
+                                "SOAPAction: \"https://www.w3schools.com/xml/FahrenheitToCelsius\"##Content-Type: application/soap+xml; charset=utf-8; action=\"https://www.w3schools.com/xml/FahrenheitToCelsius\"##"
+                            ],
+                            "keywordVal": "setHeader",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.263000",
+                            "name": "WebService List",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 15,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "678739f25b8656344efb947a",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "678738ac5b8656344efb9450",
+                            "elementRepoId": "678738ac5b8656344efb944f",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.263000",
+                            "name": "soap-env:Envelope",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 16,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "678739f25b8656344efb947b",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "678738ac5b8656344efb9451",
+                            "elementRepoId": "678738ac5b8656344efb944f",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.263000",
+                            "name": "soap-env:Envelope_xmlns:soap-env",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 17,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "678739f25b8656344efb947c",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "678738ac5b8656344efb9452",
+                            "elementRepoId": "678738ac5b8656344efb944f",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.263000",
+                            "name": "soap-env:Body",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 18,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "678739f25b8656344efb947d",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "678738ac5b8656344efb9453",
+                            "elementRepoId": "678738ac5b8656344efb944f",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.263000",
+                            "name": "ns0:FahrenheitToCelsius",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 19,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "678739f25b8656344efb947e",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "678738ac5b8656344efb9454",
+                            "elementRepoId": "678738ac5b8656344efb944f",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.263000",
+                            "name": "ns0:FahrenheitToCelsius_xmlns:ns0",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 20,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "678739f25b8656344efb947f",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "678738ac5b8656344efb9455",
+                            "elementRepoId": "678738ac5b8656344efb944f",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.263000",
+                            "name": "ns0:Fahrenheit",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 21,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "678739f25b8656344efb9480",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "678738ac5b8656344efb9456",
+                            "elementRepoId": "678738ac5b8656344efb944f",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.263000",
+                            "name": "soap-env:Envelope_xmlns:soap-env",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 22,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "678739f25b8656344efb9481",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "678738ac5b8656344efb9457",
+                            "elementRepoId": "678738ac5b8656344efb944f",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.263000",
+                            "name": "soap-env:Body",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 23,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "678739f25b8656344efb9482",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "678738ac5b8656344efb9458",
+                            "elementRepoId": "678738ac5b8656344efb944f",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.263000",
+                            "name": "ns0:CelsiusToFahrenheit",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 24,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "678739f25b8656344efb9483",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "678738ac5b8656344efb9459",
+                            "elementRepoId": "678738ac5b8656344efb944f",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.263000",
+                            "name": "ns0:CelsiusToFahrenheit_xmlns:ns0",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 25,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "678739f25b8656344efb9484",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "678738ac5b8656344efb945a",
+                            "elementRepoId": "678738ac5b8656344efb944f",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.263000",
+                            "name": "ns0:Celsius",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 26,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "678739f25b8656344efb9485",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "678738ac5b8656344efb945b",
+                            "elementRepoId": "678738ac5b8656344efb944f",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.263000",
+                            "name": "soap-env:Envelope_xmlns:soap-env",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 27,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "678739f25b8656344efb9486",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "678738ac5b8656344efb945c",
+                            "elementRepoId": "678738ac5b8656344efb944f",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.263000",
+                            "name": "soap-env:Body",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 28,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "678739f25b8656344efb9487",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "678738ac5b8656344efb945d",
+                            "elementRepoId": "678738ac5b8656344efb944f",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.263000",
+                            "name": "ns0:FahrenheitToCelsius",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 29,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "678739f25b8656344efb9488",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "678738ac5b8656344efb945e",
+                            "elementRepoId": "678738ac5b8656344efb944f",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.263000",
+                            "name": "ns0:FahrenheitToCelsius_xmlns:ns0",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 30,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "678739f25b8656344efb9489",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "678738ac5b8656344efb945f",
+                            "elementRepoId": "678738ac5b8656344efb944f",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.263000",
+                            "name": "ns0:Fahrenheit",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 31,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "678739f25b8656344efb948a",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "",
+                            "elementRepoId": "678738ac5b8656344efb944f",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "executeRequest",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.263000",
+                            "name": "WebService List",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 32,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "678739f25b8656344efb948b",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "678738ac5b8656344efb9450",
+                            "elementRepoId": "678738ac5b8656344efb944f",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.263000",
+                            "name": "soap-env:Envelope",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 33,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        },
+                        {
+                            "_id": "678739f25b8656344efb948c",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "678738ac5b8656344efb9454",
+                            "elementRepoId": "678738ac5b8656344efb944f",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.263000",
+                            "name": "ns0:FahrenheitToCelsius_xmlns:ns0",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 34,
+                            "testStepGroupId": "67766712db9d961000bff375"
+                        }
+                    ]
+                },
+                {
+                    "_id": "67766748db9d961000bff3a1",
+                    "appType": "Webservice",
+                    "assignedTo": "keerthana",
+                    "createdBy": "670ca1c77cf6d4f18b1792c2",
+                    "createdByRole": "5db0022cf87fdec084ae49ab",
+                    "createdOn": "2025-01-15 04:30:42.267000",
+                    "displayOn": "2025-01-15 04:30:42.267000",
+                    "groupIndex": 2,
+                    "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+                    "modifiedOn": "2025-01-15 04:30:42.267000",
+                    "name": "test",
+                    "projectId": "6774e7b6ca9d900eea441d7b",
+                    "testCaseId": "6776669fdb9d961000bff2e9",
+                    "testSteps": [
+                        {
+                            "_id": "67766748db9d961000bff3a2",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "https://petstore.swagger.io/v2/user/createWithArray"
+                            ],
+                            "keywordVal": "setEndPointURL",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.269000",
+                            "name": "WebService List",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 1,
+                            "testStepGroupId": "67766748db9d961000bff3a1"
+                        },
+                        {
+                            "_id": "67766748db9d961000bff3a3",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "POST"
+                            ],
+                            "keywordVal": "setMethods",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.269000",
+                            "name": "WebService List",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 2,
+                            "testStepGroupId": "67766748db9d961000bff3a1"
+                        },
+                        {
+                            "_id": "67766748db9d961000bff3a4",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                "Content-Type:application/json##"
+                            ],
+                            "keywordVal": "setHeader",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.269000",
+                            "name": "WebService List",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 3,
+                            "testStepGroupId": "67766748db9d961000bff3a1"
+                        },
+                        {
+                            "_id": "67766748db9d961000bff3a5",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.269000",
+                            "name": "0",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 4,
+                            "testStepGroupId": "67766748db9d961000bff3a1"
+                        },
+                        {
+                            "_id": "67766748db9d961000bff3a6",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.269000",
+                            "name": "0/id",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 5,
+                            "testStepGroupId": "67766748db9d961000bff3a1"
+                        },
+                        {
+                            "_id": "67766748db9d961000bff3a7",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.269000",
+                            "name": "0/username",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 6,
+                            "testStepGroupId": "67766748db9d961000bff3a1"
+                        },
+                        {
+                            "_id": "67766748db9d961000bff3a8",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.269000",
+                            "name": "0/firstName",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 7,
+                            "testStepGroupId": "67766748db9d961000bff3a1"
+                        },
+                        {
+                            "_id": "67766748db9d961000bff3a9",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.269000",
+                            "name": "0/lastName",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 8,
+                            "testStepGroupId": "67766748db9d961000bff3a1"
+                        },
+                        {
+                            "_id": "67766748db9d961000bff3aa",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.269000",
+                            "name": "0/email",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 9,
+                            "testStepGroupId": "67766748db9d961000bff3a1"
+                        },
+                        {
+                            "_id": "67766748db9d961000bff3ab",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.269000",
+                            "name": "0/password",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 10,
+                            "testStepGroupId": "67766748db9d961000bff3a1"
+                        },
+                        {
+                            "_id": "67766748db9d961000bff3ac",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.269000",
+                            "name": "0/phone",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 11,
+                            "testStepGroupId": "67766748db9d961000bff3a1"
+                        },
+                        {
+                            "_id": "67766748db9d961000bff3ad",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "setTagValue",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.269000",
+                            "name": "0/userStatus",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 12,
+                            "testStepGroupId": "67766748db9d961000bff3a1"
+                        },
+                        {
+                            "_id": "67766748db9d961000bff3ae",
+                            "addDetails": "",
+                            "appType": "Webservice",
+                            "elementId": "",
+                            "elementRepoId": "",
+                            "inputVal": [
+                                ""
+                            ],
+                            "keywordVal": "executeRequest",
+                            "modifiedBy": "670ca1c77cf6d4f18b1792c2",
+                            "modifiedOn": "2025-01-15 04:30:42.269000",
+                            "name": "WebService List",
+                            "outputVal": "",
+                            "parentName": "test",
+                            "remarks": "",
+                            "stepNo": 13,
+                            "testStepGroupId": "67766748db9d961000bff3a1"
+                        }
+                    ]
+                }
+            ],
+            "testSteps": "True"
+        }
+    ],
+    "testcase": "True",
+    "userName": "keerthana"
+}
