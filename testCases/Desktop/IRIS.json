@@ -1,0 +1,162 @@
+{
+    "_id": "682ab55fa7e1663fc9829cb3",
+    "name": "IRIS",
+    "projectId": "682ab400a7e1663fc982983f",
+    "testCaseFolderId": "682ab543a7e1663fc9829be5",
+    "appType": "Web",
+    "assignedTo": "rakesh",
+    "description": "",
+    "createdOn": "2025-05-19T04:36:47.877Z",
+    "displayOn": "2025-05-19T04:36:47.877Z",
+    "createdBy": "677b5757e630ee1a15602a19",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "modifiedBy": "677b5757e630ee1a15602a19",
+    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+    "modifiedOn": "2025-05-19T04:39:50.730Z",
+    "isTestCaseRecoveryStep": false,
+    "tag": [],
+    "versions": [],
+    "__v": 0,
+    "parentPath": "Desktop",
+    "testStepGroups": [
+        {
+            "_id": "682ab574a7e1663fc9829d5d",
+            "name": "IRIS- Avo Bank",
+            "projectId": "682ab400a7e1663fc982983f",
+            "testCaseId": "682ab55fa7e1663fc9829cb3",
+            "appType": "Desktop",
+            "assignedTo": "rakesh",
+            "groupIndex": 1,
+            "createdBy": "677b5757e630ee1a15602a19",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedBy": "677b5757e630ee1a15602a19",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-05-19T04:39:50.727Z",
+            "displayOn": "2025-05-19T04:39:50.727Z",
+            "modifiedOn": "2025-05-19T04:39:50.727Z",
+            "testSteps": [
+                {
+                    "_id": "682ab57ea7e1663fc9829d77",
+                    "name": "Avo Login",
+                    "elementRepoId": "682ab48da7e1663fc9829a9b",
+                    "elementId": "682ab4bda7e1663fc9829ab3",
+                    "stepNo": 2,
+                    "keywordVal": "verifyExistsIris",
+                    "appType": "Desktop",
+                    "inputVal": [
+                        ""
+                    ],
+                    "outputVal": "",
+                    "remarks": "",
+                    "addDetails": "",
+                    "testStepGroupId": "682ab574a7e1663fc9829d5d",
+                    "parentName": "IRIS- Avo Bank",
+                    "modifiedBy": "677b5757e630ee1a15602a19",
+                    "__v": 0
+                },
+                {
+                    "_id": "682ab57ea7e1663fc9829d78",
+                    "name": "Avo Login",
+                    "elementRepoId": "682ab48da7e1663fc9829a9b",
+                    "elementId": "682ab4bda7e1663fc9829ab3",
+                    "stepNo": 3,
+                    "keywordVal": "clickIris",
+                    "appType": "Desktop",
+                    "inputVal": [
+                        ""
+                    ],
+                    "outputVal": "",
+                    "remarks": "",
+                    "addDetails": "",
+                    "testStepGroupId": "682ab574a7e1663fc9829d5d",
+                    "parentName": "IRIS- Avo Bank",
+                    "modifiedBy": "677b5757e630ee1a15602a19",
+                    "__v": 0
+                },
+                {
+                    "_id": "682ab57ea7e1663fc9829d7a",
+                    "name": "User Name_textbox",
+                    "elementRepoId": "682ab48da7e1663fc9829a9b",
+                    "elementId": "682ab4e0a7e1663fc9829add",
+                    "stepNo": 5,
+                    "keywordVal": "setTextIris",
+                    "appType": "Desktop",
+                    "inputVal": [
+                        "Rakesh"
+                    ],
+                    "outputVal": "",
+                    "remarks": "",
+                    "addDetails": "",
+                    "testStepGroupId": "682ab574a7e1663fc9829d5d",
+                    "parentName": "IRIS- Avo Bank",
+                    "modifiedBy": "677b5757e630ee1a15602a19",
+                    "__v": 0
+                },
+                {
+                    "_id": "682ab57ea7e1663fc9829d7b",
+                    "name": "Password_textbox",
+                    "elementRepoId": "682ab48da7e1663fc9829a9b",
+                    "elementId": "682ab4e0a7e1663fc9829ae8",
+                    "stepNo": 6,
+                    "keywordVal": "setTextIris",
+                    "appType": "Desktop",
+                    "inputVal": [
+                        "Rakesh@123"
+                    ],
+                    "outputVal": "",
+                    "remarks": "",
+                    "addDetails": "",
+                    "testStepGroupId": "682ab574a7e1663fc9829d5d",
+                    "parentName": "IRIS- Avo Bank",
+                    "modifiedBy": "677b5757e630ee1a15602a19",
+                    "__v": 0
+                },
+                {
+                    "_id": "682ab5e3a7e1663fc9829e6b",
+                    "name": "@Window",
+                    "elementRepoId": "",
+                    "elementId": "",
+                    "stepNo": 1,
+                    "keywordVal": "findWindowAndAttach",
+                    "appType": "Desktop",
+                    "inputVal": [
+                        "Avo Bank*"
+                    ],
+                    "outputVal": "",
+                    "remarks": "",
+                    "addDetails": "",
+                    "testStepGroupId": "682ab574a7e1663fc9829d5d",
+                    "parentName": "IRIS- Avo Bank",
+                    "modifiedBy": "677b5757e630ee1a15602a19",
+                    "__v": 0
+                },
+                {
+                    "_id": "682ab616a7e1663fc9829f13",
+                    "name": "@Window",
+                    "elementRepoId": "",
+                    "elementId": "",
+                    "stepNo": 4,
+                    "keywordVal": "findWindowAndAttach",
+                    "appType": "Desktop",
+                    "inputVal": [
+                        "Login*"
+                    ],
+                    "outputVal": "",
+                    "remarks": "",
+                    "addDetails": "",
+                    "testStepGroupId": "682ab574a7e1663fc9829d5d",
+                    "parentName": "IRIS- Avo Bank",
+                    "modifiedBy": "677b5757e630ee1a15602a19",
+                    "__v": 0
+                }
+            ],
+            "__v": 0
+        }
+    ],
+    "associatedrepopaths": [
+        "Desktop/IRIS"
+    ],
+    "associated": [
+        "elementRepositories\\Desktop\\IRIS.json"
+    ]
+}
