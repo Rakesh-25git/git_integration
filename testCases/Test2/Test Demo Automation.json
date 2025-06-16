@@ -1,0 +1,219 @@
+{
+    "_id": "684f9ea0a00debf3efee7479",
+    "name": "Test Demo Automation",
+    "projectId": "684e82d09804bb13d7a05165",
+    "testCaseFolderId": "684e88b09804bb13d7a057bb",
+    "appType": "Web",
+    "assignedTo": "rakesh",
+    "description": "",
+    "createdOn": "2025-06-16T04:33:36.882Z",
+    "displayOn": "2025-06-16T04:33:36.882Z",
+    "createdBy": "677b5757e630ee1a15602a19",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "modifiedBy": "677b5757e630ee1a15602a19",
+    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+    "modifiedOn": "2025-06-16T04:33:50.195Z",
+    "isTestCaseRecoveryStep": false,
+    "tag": [],
+    "versions": [],
+    "__v": 0,
+    "parentPath": "Test2",
+    "testStepGroups": [
+        {
+            "_id": "684f9eaea00debf3efee7590",
+            "name": "Automation Demo",
+            "projectId": "684e82d09804bb13d7a05165",
+            "testCaseId": "684f9ea0a00debf3efee7479",
+            "appType": "Web",
+            "assignedTo": "",
+            "groupIndex": 1,
+            "createdBy": "677b5757e630ee1a15602a19",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedBy": "677b5757e630ee1a15602a19",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-06-16T04:33:50.192Z",
+            "displayOn": "2025-06-16T04:33:50.192Z",
+            "modifiedOn": "2025-06-16T04:33:50.192Z",
+            "testSteps": [
+                {
+                    "_id": "684f9eaea00debf3efee7593",
+                    "name": "@Browser",
+                    "elementRepoId": "",
+                    "elementId": "",
+                    "stepNo": 1,
+                    "keywordVal": "openBrowser",
+                    "appType": "Web",
+                    "inputVal": [
+                        ""
+                    ],
+                    "outputVal": "",
+                    "remarks": "",
+                    "addDetails": "",
+                    "testStepGroupId": "684f9eaea00debf3efee7590",
+                    "parentName": "Automation Demo",
+                    "modifiedBy": "677b5757e630ee1a15602a19",
+                    "__v": 0
+                },
+                {
+                    "_id": "684f9eaea00debf3efee7594",
+                    "name": "@Browser",
+                    "elementRepoId": "",
+                    "elementId": "",
+                    "stepNo": 2,
+                    "keywordVal": "navigateToURL",
+                    "appType": "Web",
+                    "inputVal": [
+                        "https://demo.automationtesting.in/Register.html"
+                    ],
+                    "outputVal": "",
+                    "remarks": "",
+                    "addDetails": "",
+                    "testStepGroupId": "684f9eaea00debf3efee7590",
+                    "parentName": "Automation Demo",
+                    "modifiedBy": "677b5757e630ee1a15602a19",
+                    "__v": 0
+                },
+                {
+                    "_id": "684f9eaea00debf3efee7595",
+                    "name": "Full Name*",
+                    "elementRepoId": "684f9eaca00debf3efee7527",
+                    "elementId": "684f9eada00debf3efee752f",
+                    "stepNo": 3,
+                    "keywordVal": "setText",
+                    "appType": "Web",
+                    "inputVal": [
+                        "Avo Automation"
+                    ],
+                    "outputVal": "",
+                    "remarks": "",
+                    "addDetails": "",
+                    "testStepGroupId": "684f9eaea00debf3efee7590",
+                    "parentName": "Automation Demo",
+                    "modifiedBy": "677b5757e630ee1a15602a19",
+                    "__v": 0
+                },
+                {
+                    "_id": "684f9eaea00debf3efee7596",
+                    "name": "Cricket",
+                    "elementRepoId": "684f9eaca00debf3efee7527",
+                    "elementId": "684f9eada00debf3efee753f",
+                    "stepNo": 4,
+                    "keywordVal": "selectCheckbox",
+                    "appType": "Web",
+                    "inputVal": [
+                        ""
+                    ],
+                    "outputVal": "",
+                    "remarks": "",
+                    "addDetails": "",
+                    "testStepGroupId": "684f9eaea00debf3efee7590",
+                    "parentName": "Automation Demo",
+                    "modifiedBy": "677b5757e630ee1a15602a19",
+                    "__v": 0
+                },
+                {
+                    "_id": "684f9eaea00debf3efee7597",
+                    "name": "firstpassword",
+                    "elementRepoId": "684f9eaca00debf3efee7527",
+                    "elementId": "684f9eada00debf3efee754f",
+                    "stepNo": 5,
+                    "keywordVal": "setText",
+                    "appType": "Web",
+                    "inputVal": [
+                        "Welcome@123"
+                    ],
+                    "outputVal": "",
+                    "remarks": "",
+                    "addDetails": "",
+                    "testStepGroupId": "684f9eaea00debf3efee7590",
+                    "parentName": "Automation Demo",
+                    "modifiedBy": "677b5757e630ee1a15602a19",
+                    "__v": 0
+                },
+                {
+                    "_id": "684f9eaea00debf3efee7598",
+                    "name": "secondpassword",
+                    "elementRepoId": "684f9eaca00debf3efee7527",
+                    "elementId": "684f9eada00debf3efee755f",
+                    "stepNo": 6,
+                    "keywordVal": "setText",
+                    "appType": "Web",
+                    "inputVal": [
+                        "Admin@456"
+                    ],
+                    "outputVal": "",
+                    "remarks": "",
+                    "addDetails": "",
+                    "testStepGroupId": "684f9eaea00debf3efee7590",
+                    "parentName": "Automation Demo",
+                    "modifiedBy": "677b5757e630ee1a15602a19",
+                    "__v": 0
+                },
+                {
+                    "_id": "684f9eaea00debf3efee7599",
+                    "name": "Submit",
+                    "elementRepoId": "684f9eaca00debf3efee7527",
+                    "elementId": "684f9eada00debf3efee756f",
+                    "stepNo": 7,
+                    "keywordVal": "click",
+                    "appType": "Web",
+                    "inputVal": [
+                        ""
+                    ],
+                    "outputVal": "",
+                    "remarks": "",
+                    "addDetails": "",
+                    "testStepGroupId": "684f9eaea00debf3efee7590",
+                    "parentName": "Automation Demo",
+                    "modifiedBy": "677b5757e630ee1a15602a19",
+                    "__v": 0
+                },
+                {
+                    "_id": "684f9eaea00debf3efee759a",
+                    "name": "Refresh",
+                    "elementRepoId": "684f9eaca00debf3efee7527",
+                    "elementId": "684f9eaea00debf3efee7581",
+                    "stepNo": 8,
+                    "keywordVal": "click",
+                    "appType": "Web",
+                    "inputVal": [
+                        ""
+                    ],
+                    "outputVal": "",
+                    "remarks": "",
+                    "addDetails": "",
+                    "testStepGroupId": "684f9eaea00debf3efee7590",
+                    "parentName": "Automation Demo",
+                    "modifiedBy": "677b5757e630ee1a15602a19",
+                    "__v": 0
+                },
+                {
+                    "_id": "684f9eaea00debf3efee759b",
+                    "name": "@Browser",
+                    "elementRepoId": "",
+                    "elementId": "",
+                    "stepNo": 9,
+                    "keywordVal": "closeBrowser",
+                    "appType": "Web",
+                    "inputVal": [
+                        ""
+                    ],
+                    "outputVal": "",
+                    "remarks": "",
+                    "addDetails": "",
+                    "testStepGroupId": "684f9eaea00debf3efee7590",
+                    "parentName": "Automation Demo",
+                    "modifiedBy": "677b5757e630ee1a15602a19",
+                    "__v": 0
+                }
+            ],
+            "__v": 0
+        }
+    ],
+    "associatedrepopaths": [
+        "Imported Test Demo Automation/Automation Demo"
+    ],
+    "associated": [
+        "elementRepositories\\Imported Test Demo Automation\\Automation Demo.json"
+    ]
+}
